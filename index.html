@@ -1,0 +1,1560 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>מכורים אנונימיים - פיתוח חברותא מרכז | שאלות לוועדה</title>
+<!-- Tailwind דרך CDN (כשיש אינטרנט). בנוסף מוטמע למטה CSS מקומפל, כך שהעמוד מעוצב גם בלי חיבור. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  if (window.tailwind) tailwind.config = { theme: { extend: {
+    colors: { na: { 50:"#f0f5fa",100:"#dce8f3",200:"#b9d0e6",300:"#8fb3d4",400:"#5b8dbd",500:"#2f6aa3",600:"#1a4f86",700:"#003366",800:"#002a54",900:"#001f3f" } },
+    fontFamily: { sans: ["Assistant","-apple-system","Arial Hebrew","Arial","sans-serif"] }
+  } } };
+</script>
+<style id="tw-inline">*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Assistant,-apple-system,Arial Hebrew,Arial,sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-y-0{top:0;bottom:0}.bottom-5{bottom:1.25rem}.left-1{left:.25rem}.left-1\/2{left:50%}.right-3{right:.75rem}.top-0{top:0}.top-4{top:1rem}.-z-0{z-index:0}.z-10{z-index:10}.z-30{z-index:30}.z-50{z-index:50}.mx-1{margin-left:.25rem;margin-right:.25rem}.mx-auto{margin-left:auto;margin-right:auto}.my-1{margin-top:.25rem}.mb-1,.my-1{margin-bottom:.25rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.mb-6{margin-bottom:1.5rem}.ml-1{margin-left:.25rem}.mr-auto{margin-right:auto}.mt-0{margin-top:0}.mt-0\.5{margin-top:.125rem}.mt-1{margin-top:.25rem}.mt-1\.5{margin-top:.375rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-5{margin-top:1.25rem}.mt-6{margin-top:1.5rem}.mt-8{margin-top:2rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.table{display:table}.grid{display:grid}.hidden{display:none}.h-1{height:.25rem}.h-11{height:2.75rem}.h-12{height:3rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-8{height:2rem}.h-full{height:100%}.max-h-40{max-height:10rem}.min-h-screen{min-height:100vh}.w-11{width:2.75rem}.w-12{width:3rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-8{width:2rem}.w-fit{width:-moz-fit-content;width:fit-content}.w-full{width:100%}.min-w-0{min-width:0}.max-w-2xl{max-width:42rem}.max-w-3xl{max-width:48rem}.max-w-5xl{max-width:64rem}.max-w-md{max-width:28rem}.max-w-sm{max-width:24rem}.max-w-xs{max-width:20rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.-translate-x-1{--tw-translate-x:-0.25rem}.-translate-x-1,.-translate-x-1\/2{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-x-1\/2{--tw-translate-x:-50%}.cursor-pointer{cursor:pointer}.list-decimal{list-style-type:decimal}.list-disc{list-style-type:disc}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:.25rem}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-5{gap:1.25rem}.gap-6{gap:1.5rem}.gap-y-2{row-gap:.5rem}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.25rem*var(--tw-space-y-reverse))}.space-y-1\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.375rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.375rem*var(--tw-space-y-reverse))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.space-y-2\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.625rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.625rem*var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem*var(--tw-space-y-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem*var(--tw-space-y-reverse))}.overflow-auto{overflow:auto}.overflow-hidden,.truncate{overflow:hidden}.truncate{text-overflow:ellipsis;white-space:nowrap}.whitespace-pre-wrap{white-space:pre-wrap}.break-all{word-break:break-all}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-r-4{border-right-width:4px}.border-t{border-top-width:1px}.border-t-4{border-top-width:4px}.border-dashed{border-style:dashed}.border-amber-200{--tw-border-opacity:1;border-color:rgb(253 230 138/var(--tw-border-opacity,1))}.border-green-200{--tw-border-opacity:1;border-color:rgb(187 247 208/var(--tw-border-opacity,1))}.border-na-100{--tw-border-opacity:1;border-color:rgb(220 232 243/var(--tw-border-opacity,1))}.border-na-200{--tw-border-opacity:1;border-color:rgb(185 208 230/var(--tw-border-opacity,1))}.border-red-200{--tw-border-opacity:1;border-color:rgb(254 202 202/var(--tw-border-opacity,1))}.border-sky-200{--tw-border-opacity:1;border-color:rgb(186 230 253/var(--tw-border-opacity,1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240/var(--tw-border-opacity,1))}.border-slate-400{--tw-border-opacity:1;border-color:rgb(148 163 184/var(--tw-border-opacity,1))}.border-stone-100{--tw-border-opacity:1;border-color:rgb(245 245 244/var(--tw-border-opacity,1))}.border-stone-200{--tw-border-opacity:1;border-color:rgb(231 229 228/var(--tw-border-opacity,1))}.border-stone-300{--tw-border-opacity:1;border-color:rgb(214 211 209/var(--tw-border-opacity,1))}.border-violet-100{--tw-border-opacity:1;border-color:rgb(237 233 254/var(--tw-border-opacity,1))}.border-violet-200{--tw-border-opacity:1;border-color:rgb(221 214 254/var(--tw-border-opacity,1))}.border-violet-300{--tw-border-opacity:1;border-color:rgb(196 181 253/var(--tw-border-opacity,1))}.border-yellow-200{--tw-border-opacity:1;border-color:rgb(254 240 138/var(--tw-border-opacity,1))}.border-yellow-300{--tw-border-opacity:1;border-color:rgb(253 224 71/var(--tw-border-opacity,1))}.border-r-na-700{--tw-border-opacity:1;border-right-color:rgb(0 51 102/var(--tw-border-opacity,1))}.border-t-amber-500{--tw-border-opacity:1;border-top-color:rgb(245 158 11/var(--tw-border-opacity,1))}.border-t-na-700{--tw-border-opacity:1;border-top-color:rgb(0 51 102/var(--tw-border-opacity,1))}.border-t-sky-500{--tw-border-opacity:1;border-top-color:rgb(14 165 233/var(--tw-border-opacity,1))}.bg-\[\#f8fafc\]{--tw-bg-opacity:1;background-color:rgb(248 250 252/var(--tw-bg-opacity,1))}.bg-amber-50{--tw-bg-opacity:1;background-color:rgb(255 251 235/var(--tw-bg-opacity,1))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity,1))}.bg-green-50{--tw-bg-opacity:1;background-color:rgb(240 253 244/var(--tw-bg-opacity,1))}.bg-green-50\/60{background-color:rgba(240,253,244,.6)}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity,1))}.bg-na-100{--tw-bg-opacity:1;background-color:rgb(220 232 243/var(--tw-bg-opacity,1))}.bg-na-50{--tw-bg-opacity:1;background-color:rgb(240 245 250/var(--tw-bg-opacity,1))}.bg-na-600{--tw-bg-opacity:1;background-color:rgb(26 79 134/var(--tw-bg-opacity,1))}.bg-na-700{--tw-bg-opacity:1;background-color:rgb(0 51 102/var(--tw-bg-opacity,1))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242/var(--tw-bg-opacity,1))}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity,1))}.bg-sky-50{--tw-bg-opacity:1;background-color:rgb(240 249 255/var(--tw-bg-opacity,1))}.bg-sky-50\/60{background-color:rgba(240,249,255,.6)}.bg-sky-600{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity,1))}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85/var(--tw-bg-opacity,1))}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59/var(--tw-bg-opacity,1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42/var(--tw-bg-opacity,1))}.bg-stone-100{--tw-bg-opacity:1;background-color:rgb(245 245 244/var(--tw-bg-opacity,1))}.bg-stone-100\/70{background-color:hsla(60,5%,96%,.7)}.bg-stone-200{--tw-bg-opacity:1;background-color:rgb(231 229 228/var(--tw-bg-opacity,1))}.bg-stone-50{--tw-bg-opacity:1;background-color:rgb(250 250 249/var(--tw-bg-opacity,1))}.bg-violet-50{--tw-bg-opacity:1;background-color:rgb(245 243 255/var(--tw-bg-opacity,1))}.bg-violet-600{--tw-bg-opacity:1;background-color:rgb(124 58 237/var(--tw-bg-opacity,1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.bg-white\/10{background-color:hsla(0,0%,100%,.1)}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity,1))}.bg-yellow-200{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity,1))}.bg-yellow-50{--tw-bg-opacity:1;background-color:rgb(254 252 232/var(--tw-bg-opacity,1))}.object-contain{-o-object-fit:contain;object-fit:contain}.p-0{padding:0}.p-0\.5{padding:.125rem}.p-1{padding:.25rem}.p-2{padding:.5rem}.p-3{padding:.75rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-0{padding-left:0;padding-right:0}.px-0\.5{padding-left:.125rem;padding-right:.125rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-1\.5{padding-left:.375rem;padding-right:.375rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-0{padding-top:0;padding-bottom:0}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-1\.5{padding-top:.375rem;padding-bottom:.375rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.pb-4{padding-bottom:1rem}.pb-5{padding-bottom:1.25rem}.pl-3{padding-left:.75rem}.pr-10{padding-right:2.5rem}.pr-5{padding-right:1.25rem}.pt-1{padding-top:.25rem}.pt-3{padding-top:.75rem}.pt-4{padding-top:1rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.align-middle{vertical-align:middle}.font-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-\[11px\]{font-size:11px}.text-\[12px\]{font-size:12px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-normal{font-weight:400}.font-semibold{font-weight:600}.leading-none{line-height:1}.leading-relaxed{line-height:1.625}.leading-snug{line-height:1.375}.leading-tight{line-height:1.25}.tracking-\[\.4em\]{letter-spacing:.4em}.tracking-tight{letter-spacing:-.025em}.tracking-wide{letter-spacing:.025em}.tracking-widest{letter-spacing:.1em}.text-amber-900{--tw-text-opacity:1;color:rgb(120 53 15/var(--tw-text-opacity,1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61/var(--tw-text-opacity,1))}.text-green-900{--tw-text-opacity:1;color:rgb(20 83 45/var(--tw-text-opacity,1))}.text-na-100{--tw-text-opacity:1;color:rgb(220 232 243/var(--tw-text-opacity,1))}.text-na-200{--tw-text-opacity:1;color:rgb(185 208 230/var(--tw-text-opacity,1))}.text-na-600{--tw-text-opacity:1;color:rgb(26 79 134/var(--tw-text-opacity,1))}.text-na-700{--tw-text-opacity:1;color:rgb(0 51 102/var(--tw-text-opacity,1))}.text-na-800{--tw-text-opacity:1;color:rgb(0 42 84/var(--tw-text-opacity,1))}.text-na-900{--tw-text-opacity:1;color:rgb(0 31 63/var(--tw-text-opacity,1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38/var(--tw-text-opacity,1))}.text-red-700{--tw-text-opacity:1;color:rgb(185 28 28/var(--tw-text-opacity,1))}.text-red-900{--tw-text-opacity:1;color:rgb(127 29 29/var(--tw-text-opacity,1))}.text-sky-900{--tw-text-opacity:1;color:rgb(12 74 110/var(--tw-text-opacity,1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184/var(--tw-text-opacity,1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139/var(--tw-text-opacity,1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105/var(--tw-text-opacity,1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity,1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59/var(--tw-text-opacity,1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42/var(--tw-text-opacity,1))}.text-violet-700{--tw-text-opacity:1;color:rgb(109 40 217/var(--tw-text-opacity,1))}.text-violet-800{--tw-text-opacity:1;color:rgb(91 33 182/var(--tw-text-opacity,1))}.text-violet-900{--tw-text-opacity:1;color:rgb(76 29 149/var(--tw-text-opacity,1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.text-yellow-800{--tw-text-opacity:1;color:rgb(133 77 14/var(--tw-text-opacity,1))}.text-yellow-900{--tw-text-opacity:1;color:rgb(113 63 18/var(--tw-text-opacity,1))}.underline{text-decoration-line:underline}.line-through{text-decoration-line:line-through}.accent-\[\#003366\],.accent-na-700{accent-color:#036}.opacity-0{opacity:0}.opacity-60{opacity:.6}.opacity-80{opacity:.8}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-lg,.shadow-sm{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgba(0,0,0,.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color)}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.ring-na-300{--tw-ring-opacity:1;--tw-ring-color:rgb(143 179 212/var(--tw-ring-opacity,1))}.ring-white{--tw-ring-opacity:1;--tw-ring-color:rgb(255 255 255/var(--tw-ring-opacity,1))}.ring-white\/60{--tw-ring-color:hsla(0,0%,100%,.6)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.ease-out{transition-timing-function:cubic-bezier(0,0,.2,1)}.hover\:border-na-300:hover{--tw-border-opacity:1;border-color:rgb(143 179 212/var(--tw-border-opacity,1))}.hover\:border-na-400:hover{--tw-border-opacity:1;border-color:rgb(91 141 189/var(--tw-border-opacity,1))}.hover\:border-na-500:hover{--tw-border-opacity:1;border-color:rgb(47 106 163/var(--tw-border-opacity,1))}.hover\:bg-green-700:hover{--tw-bg-opacity:1;background-color:rgb(21 128 61/var(--tw-bg-opacity,1))}.hover\:bg-na-50:hover{--tw-bg-opacity:1;background-color:rgb(240 245 250/var(--tw-bg-opacity,1))}.hover\:bg-na-800:hover{--tw-bg-opacity:1;background-color:rgb(0 42 84/var(--tw-bg-opacity,1))}.hover\:bg-sky-700:hover{--tw-bg-opacity:1;background-color:rgb(3 105 161/var(--tw-bg-opacity,1))}.hover\:bg-slate-800:hover{--tw-bg-opacity:1;background-color:rgb(30 41 59/var(--tw-bg-opacity,1))}.hover\:bg-stone-50:hover{--tw-bg-opacity:1;background-color:rgb(250 250 249/var(--tw-bg-opacity,1))}.hover\:bg-violet-50:hover{--tw-bg-opacity:1;background-color:rgb(245 243 255/var(--tw-bg-opacity,1))}.hover\:bg-violet-700:hover{--tw-bg-opacity:1;background-color:rgb(109 40 217/var(--tw-bg-opacity,1))}.hover\:bg-yellow-200:hover{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity,1))}.hover\:text-na-700:hover{--tw-text-opacity:1;color:rgb(0 51 102/var(--tw-text-opacity,1))}.hover\:text-red-600:hover{--tw-text-opacity:1;color:rgb(220 38 38/var(--tw-text-opacity,1))}.hover\:underline:hover{text-decoration-line:underline}.hover\:shadow:hover{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\:ring-green-600:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(22 163 74/var(--tw-ring-opacity,1))}.focus\:ring-na-600:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(26 79 134/var(--tw-ring-opacity,1))}.focus\:ring-sky-600:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(2 132 199/var(--tw-ring-opacity,1))}.focus\:ring-violet-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(139 92 246/var(--tw-ring-opacity,1))}.disabled\:bg-stone-100:disabled{--tw-bg-opacity:1;background-color:rgb(245 245 244/var(--tw-bg-opacity,1))}.disabled\:text-slate-400:disabled{--tw-text-opacity:1;color:rgb(148 163 184/var(--tw-text-opacity,1))}.disabled\:opacity-60:disabled{opacity:.6}@media (min-width:640px){.sm\:h-14{height:3.5rem}.sm\:w-14{width:3.5rem}.sm\:w-auto{width:auto}.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:flex-row{flex-direction:row}.sm\:items-center{align-items:center}.sm\:justify-between{justify-content:space-between}.sm\:p-5{padding:1.25rem}.sm\:p-6{padding:1.5rem}.sm\:p-8{padding:2rem}.sm\:px-4{padding-left:1rem;padding-right:1rem}.sm\:px-5{padding-left:1.25rem;padding-right:1.25rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-sm{font-size:.875rem;line-height:1.25rem}.sm\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width:768px){.md\:flex-none{flex:none}.md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.md\:flex-row{flex-direction:row}.md\:items-center{align-items:center}.md\:justify-between{justify-content:space-between}}@media (min-width:1024px){.lg\:sticky{position:sticky}.lg\:top-28{top:7rem}.lg\:col-span-2{grid-column:span 2/span 2}.lg\:col-span-3{grid-column:span 3/span 3}.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\:grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}}</style>
+<style>
+  body{font-family:"Assistant",-apple-system,BlinkMacSystemFont,"Segoe UI","Arial Hebrew",Arial,sans-serif;font-size:17px}
+  .fade-in{animation:fade .25s ease-out}
+  @keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  details>summary{list-style:none;cursor:pointer}
+  details>summary::-webkit-details-marker{display:none}
+  details[open] .chev{transform:rotate(180deg)}
+  .chev{transition:transform .2s}
+  mark.pii{background:#fde68a;border-radius:3px;padding:0 2px}
+  .spinner{border:3px solid #cbd5e1;border-top-color:#003366;border-radius:50%;width:22px;height:22px;animation:spin .8s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body class="bg-[#f8fafc] text-slate-800 min-h-screen flex flex-col">
+
+<!-- ===== כותרת וניווט ===== -->
+<header class="bg-na-700 text-white sticky top-0 z-30 shadow-sm">
+  <div class="max-w-5xl mx-auto px-4 py-3 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+    <a href="#/new" class="flex items-center gap-3">
+      <!-- הלוגו נטען מהקובץ na-logo.jpg שבאותה תיקייה (ואם אינו קיים – na-logo.png, ואחריו סמל גיבוי). -->
+      <span class="w-12 h-12 sm:w-14 sm:h-14 shrink-0 rounded-full bg-white flex items-center justify-center overflow-hidden shadow-sm ring-2 ring-white/60">
+        <img id="site-logo" src="na-logo.jpg" alt="לוגו NA" width="56" height="56" class="w-full h-full object-contain p-0.5"
+             onerror="if(!this.dataset.tried){this.dataset.tried='1';this.src='na-logo.png';}else{this.style.display='none';this.nextElementSibling.style.display='block';}">
+        <svg viewBox="0 0 40 40" class="w-8 h-8" style="display:none" aria-hidden="true">
+          <circle cx="20" cy="20" r="17" fill="none" stroke="#003366" stroke-width="2.5"/>
+          <path d="M20 11 L12 25 L28 25 Z" fill="none" stroke="#8fb3d4" stroke-width="2" stroke-linejoin="round"/>
+          <circle cx="20" cy="11" r="3.4" fill="#003366"/><circle cx="12" cy="25" r="3.4" fill="#2f6aa3"/><circle cx="28" cy="25" r="3.4" fill="#2f6aa3"/>
+        </svg>
+      </span>
+      <div class="leading-tight">
+        <div class="font-extrabold text-lg sm:text-xl tracking-tight">מכורים אנונימיים - פיתוח חברותא מרכז</div>
+        <div class="text-xs sm:text-sm text-na-200">תת-ועדת שירות</div>
+      </div>
+    </a>
+    <nav class="flex bg-white/10 rounded-xl p-1 text-sm font-semibold" aria-label="ניווט ראשי">
+      <a href="#/new"    data-tab="new"    class="tab flex-1 md:flex-none text-center px-2 sm:px-4 py-2 rounded-lg">שליחת פנייה אנונימית</a>
+      <a href="#/kb"     data-tab="kb"     class="tab flex-1 md:flex-none text-center px-2 sm:px-4 py-2 rounded-lg">מאגר שו"ת ומסורות</a>
+      <a href="#/status" data-tab="status" class="tab flex-1 md:flex-none text-center px-2 sm:px-4 py-2 rounded-lg">בדיקת סטטוס פנייה</a>
+    </nav>
+  </div>
+</header>
+
+<div class="bg-na-50 border-b border-na-100 text-na-900 text-sm">
+  <div class="max-w-5xl mx-auto px-4 py-2 flex items-center gap-2">
+    <span aria-hidden="true">🔒</span>
+    <span>אנחנו לא יודעים מי אתם, ואנחנו לא רוצים לדעת. אין הרשמה, אין מעקב ואין שמירת כתובות IP.</span>
+  </div>
+</div>
+
+<main class="flex-1 w-full max-w-5xl mx-auto px-4 py-6">
+
+  <!-- =================== פנייה חדשה =================== -->
+  <section id="view-new" class="view hidden">
+    <div id="new-form-wrap">
+      <div class="mb-6">
+        <h1 class="text-2xl sm:text-3xl font-bold text-slate-900">שאלות לוועדה</h1>
+        <p class="text-slate-600 mt-2 max-w-3xl">הוועדה אינה גוף שופט או מנהל, אלא גורם מייעץ שחולק מניסיונו על בסיס המסורות ועקרונות השירות של NA. ההחלטה תמיד נשארת במצפון הקבוצה שלכם.</p>
+      </div>
+
+      <div class="grid lg:grid-cols-3 gap-6">
+        <form id="inquiry-form" class="lg:col-span-2 space-y-6" novalidate>
+
+          <!-- 1. נושא -->
+          <fieldset class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5">
+            <legend class="font-semibold text-slate-900 px-1">1. על מה השאלה? <span class="text-slate-400 font-normal text-sm">(רשות)</span></legend>
+            <div class="grid sm:grid-cols-2 gap-4 mt-3">
+              <label class="block">
+                <span class="text-sm text-slate-600">קטגוריה ראשית</span>
+                <select id="cat-main" class="mt-1 w-full rounded-lg border border-stone-300 bg-white px-3 py-2 focus:outline-none focus:ring-2 focus:ring-na-600"></select>
+              </label>
+              <label class="block">
+                <span class="text-sm text-slate-600">נושא משני</span>
+                <select id="cat-sub" class="mt-1 w-full rounded-lg border border-stone-300 bg-white px-3 py-2 focus:outline-none focus:ring-2 focus:ring-na-600 disabled:bg-stone-100 disabled:text-slate-400" disabled></select>
+              </label>
+            </div>
+            <div class="mt-4">
+              <span class="text-sm text-slate-600">מי שואל/ת?</span>
+              <div class="flex flex-wrap gap-2 mt-2" id="role-group">
+                <label class="role-pill"><input type="radio" name="role" value="member" class="sr-only"><span>חבר/ה</span></label>
+                <label class="role-pill"><input type="radio" name="role" value="group_servant" class="sr-only"><span>משרת/ת בקבוצה</span></label>
+                <label class="role-pill"><input type="radio" name="role" value="service_body" class="sr-only"><span>ועדה / גוף שירות</span></label>
+                <label class="role-pill"><input type="radio" name="role" value="other" class="sr-only"><span>אחר</span></label>
+              </div>
+            </div>
+          </fieldset>
+
+          <!-- 2. השאלה -->
+          <fieldset class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5">
+            <legend class="font-semibold text-slate-900 px-1">2. השאלה <span class="text-red-600">*</span></legend>
+
+            <div class="mt-3 rounded-xl border border-na-200 border-r-4 border-r-na-700 bg-na-50 p-4 text-na-900" role="note">
+              <div class="font-semibold flex items-center gap-2"><span aria-hidden="true">🔒</span> אתם בטוחים כאן: שומרים יחד על האנונימיות (מסורת 12)</div>
+              <p class="text-sm mt-1">אין צורך בשם, בטלפון או בהרשמה. נא לא לציין שמות מלאים, שמות קבוצות, מקומות מפגש, ערים, תאריכים מדויקים או כל פרט שיכול לזהות אתכם או חברים אחרים.</p>
+              <p class="text-sm mt-1 text-na-700">במקום <span class="line-through">"דני מקבוצת 'חופש' ברחובות"</span> אפשר לכתוב <b>"חבר בקבוצה שלנו"</b>. כך נתמקד בעקרונות ולא באישים.</p>
+            </div>
+
+            <label for="q-text" class="sr-only">כתבו את השאלה</label>
+            <textarea id="q-text" rows="7" maxlength="3000" placeholder="תארו את המצב ואת השאלה, בלי פרטים מזהים..." class="mt-4 w-full rounded-lg border border-stone-300 px-3 py-2 leading-relaxed focus:outline-none focus:ring-2 focus:ring-na-600"></textarea>
+            <div class="flex justify-between text-xs mt-1">
+              <span id="q-error" class="text-red-600 hidden">נא לכתוב לפחות 50 תווים, כדי שנוכל להבין את המצב.</span>
+              <span id="q-count" class="text-slate-400 mr-auto">0 / 3000</span>
+            </div>
+
+            <div id="pii-box" class="hidden mt-3 rounded-lg border border-yellow-300 bg-yellow-50 p-3 text-sm fade-in">
+              <div class="font-semibold text-yellow-900">⚠️ נראה שכתבת פרט שעלול לזהות מישהו:</div>
+              <div id="pii-preview" class="mt-2 text-slate-700 leading-relaxed whitespace-pre-wrap max-h-40 overflow-auto"></div>
+              <div class="text-yellow-800 mt-2">אפשר לנסח מחדש, או להמשיך אם זה לא מזהה. זו רק הצעה.</div>
+            </div>
+
+            <label class="block mt-4">
+              <span class="text-sm text-slate-600">מה כבר ניסיתם? האם הנושא עלה במצפון קבוצה? <span class="text-slate-400">(רשות)</span></span>
+              <textarea id="q-tried" rows="3" maxlength="1500" class="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-na-600"></textarea>
+            </label>
+
+            <div class="mt-4">
+              <span class="text-sm text-slate-600">דחיפות</span>
+              <div class="flex flex-wrap gap-2 mt-2">
+                <label class="role-pill"><input type="radio" name="urgency" value="normal" class="sr-only" checked><span>רגיל</span></label>
+                <label class="role-pill"><input type="radio" name="urgency" value="deadline_1w" class="sr-only"><span>יש אסיפה בשבוע הקרוב</span></label>
+                <label class="role-pill"><input type="radio" name="urgency" value="deadline_2w" class="sr-only"><span>תוך שבועיים</span></label>
+              </div>
+            </div>
+          </fieldset>
+
+          <!-- 3. ערוץ מענה -->
+          <fieldset class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5">
+            <legend class="font-semibold text-slate-900 px-1">3. איך תרצו לקבל את התשובה?</legend>
+            <div class="grid sm:grid-cols-2 gap-3 mt-3" id="channel-group">
+              <label class="channel-card channel-main">
+                <input type="radio" name="channel" value="whatsapp" class="sr-only">
+                <div class="flex items-center gap-3">
+                  <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center text-2xl shrink-0">💬</div>
+                  <div>
+                    <div class="font-bold text-lg text-slate-900">וואטסאפ</div>
+                    <div class="text-sm text-slate-500">התשובה תישלח אליכם בוואטסאפ</div>
+                  </div>
+                </div>
+              </label>
+              <label class="channel-card channel-main">
+                <input type="radio" name="channel" value="email" class="sr-only">
+                <div class="flex items-center gap-3">
+                  <div class="w-12 h-12 rounded-full bg-sky-100 flex items-center justify-center text-2xl shrink-0">✉️</div>
+                  <div>
+                    <div class="font-bold text-lg text-slate-900">מייל</div>
+                    <div class="text-sm text-slate-500">התשובה תישלח אליכם במייל</div>
+                  </div>
+                </div>
+              </label>
+            </div>
+            <p id="channel-error" class="hidden text-xs text-red-600 mt-2">נא לבחור איך תרצו לקבל את התשובה.</p>
+
+            <div id="ch-whatsapp-info" class="hidden mt-4 rounded-xl border-2 border-green-200 bg-green-50/60 p-4 fade-in">
+              <label class="block">
+                <span class="text-sm font-semibold text-slate-800">מספר הוואטסאפ שלך</span>
+                <input id="wa-phone" type="tel" inputmode="tel" dir="ltr" autocomplete="tel" placeholder="050-1234567" class="mt-1 w-full rounded-lg border border-stone-300 bg-white px-3 py-2.5 text-left text-lg tracking-wide focus:outline-none focus:ring-2 focus:ring-green-600">
+              </label>
+              <p id="wa-error" class="text-xs text-red-600 mt-1 hidden">נא להזין מספר וואטסאפ תקין (למשל 050-1234567).</p>
+              <p class="text-xs text-slate-600 mt-2">🔐 המספר יוצג רק למשרתי הוועדה, כדי שיוכלו להשיב לך ישירות. הוא לא יפורסם בשום מקום וימחק אחרי שהטיפול בפנייה יסתיים.</p>
+            </div>
+            <div id="ch-email-info" class="hidden mt-4 rounded-xl border-2 border-sky-200 bg-sky-50/60 p-4 fade-in">
+              <label class="block">
+                <span class="text-sm font-semibold text-slate-800">כתובת המייל שלך</span>
+                <input id="email" type="email" inputmode="email" dir="ltr" autocomplete="email" placeholder="name@example.com" class="mt-1 w-full rounded-lg border border-stone-300 bg-white px-3 py-2.5 text-left text-lg focus:outline-none focus:ring-2 focus:ring-sky-600">
+              </label>
+              <p id="email-error" class="text-xs text-red-600 mt-1 hidden">נא להזין כתובת מייל תקינה (למשל name@example.com).</p>
+              <p class="text-xs text-slate-600 mt-2">🔐 הכתובת תוצג רק למשרתי הוועדה, כדי שיוכלו להשיב לך ישירות. אפשר להשתמש בכתובת שאינה כוללת את שמך.</p>
+            </div>
+
+            <div class="mt-4 pt-4 border-t border-dashed border-stone-200">
+              <label class="channel-card channel-anon flex items-center gap-3">
+                <input type="radio" name="channel" value="anonymous" class="sr-only">
+                <span class="anon-dot w-5 h-5 rounded-full border-2 border-stone-300 shrink-0"></span>
+                <span>
+                  <span class="block font-semibold text-slate-800">🔒 אפשרות לקבל תשובה בצורה אנונימית</span>
+                  <span class="block text-xs text-slate-500 mt-0.5">בלי טלפון ובלי מייל, באמצעות קוד סודי בן 4 ספרות</span>
+                </span>
+              </label>
+              <div id="ch-anon-info" class="hidden mt-3 rounded-lg bg-na-50 border border-na-100 p-3 text-sm text-na-900 fade-in">
+                אחרי השליחה תקבלו <b>קוד סודי בן 4 ספרות</b>. כדי לראות את התשובה, הזינו את הקוד בלשונית "בדיקת סטטוס פנייה".
+              </div>
+            </div>
+          </fieldset>
+
+          <!-- 4. פרסום ושליחה -->
+          <fieldset class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5">
+            <legend class="font-semibold text-slate-900 px-1">4. לפני השליחה</legend>
+            <label class="flex items-start gap-3 mt-2 cursor-pointer">
+              <input id="publish" type="checkbox" class="mt-1 w-4 h-4 accent-na-700">
+              <span class="text-sm text-slate-700">אני מסכים/ה שהשאלה תפורסם במאגר השו"ת <b>אחרי ניסוח מחדש כשאלה כללית והסרת כל פרט מזהה</b>, כדי שתעזור גם לקבוצות אחרות.</span>
+            </label>
+            <!-- Honeypot: שדה נסתר נגד בוטים -->
+            <input type="text" id="hp_website" name="website" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true">
+
+            <div class="mt-4 flex items-center gap-2 text-xs text-slate-500 border border-dashed border-stone-300 rounded-lg p-2 w-fit">
+              <span>🛡️</span><span>אימות אנושי (Cloudflare Turnstile) יופיע כאן במערכת האמיתית. בדרך כלל בלי שום פעולה מצדכם.</span>
+            </div>
+
+            <button id="submit-btn" type="submit" class="mt-5 w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-na-700 hover:bg-na-800 text-white font-semibold rounded-xl px-8 py-3 transition disabled:opacity-60">
+              <span id="submit-label">שליחת הפנייה</span>
+              <span id="submit-spin" class="spinner hidden"></span>
+            </button>
+          </fieldset>
+        </form>
+
+        <!-- עמודת צד: הצעות מהמאגר -->
+        <aside class="space-y-4">
+          <div id="suggest-box" class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 lg:sticky lg:top-28">
+            <div class="font-semibold text-slate-900">💡 אולי כבר ענינו על שאלה דומה</div>
+            <p id="suggest-empty" class="text-sm text-slate-500 mt-2">כשתתחילו לכתוב, נציג כאן תשובות קיימות מהמאגר. החיפוש מתבצע בדפדפן שלכם בלבד, והטקסט לא נשלח לשום מקום.</p>
+            <ul id="suggest-list" class="mt-3 space-y-2"></ul>
+          </div>
+          <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 text-sm text-slate-600">
+            <div class="font-semibold text-slate-900 mb-2">מה קורה אחרי השליחה?</div>
+            <ol class="space-y-2 list-decimal pr-5">
+              <li>בוואטסאפ או במייל: נשיב לכם ישירות. בפנייה אנונימית: תקבלו קוד סודי לבדיקת התשובה באתר.</li>
+              <li>משרתי הוועדה בוחנים את השאלה ומנסחים מענה על בסיס המסורות.</li>
+              <li>שני משרתים מאשרים כל תשובה לפני שהיא נחשפת לכם.</li>
+              <li>זמן מענה משוער: עד 3 שבועות (בדחיפות: עד שבוע).</li>
+            </ol>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <!-- ===== מסך סיום ===== -->
+    <div id="new-done" class="hidden max-w-2xl mx-auto fade-in">
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 sm:p-8 text-center">
+        <div class="text-5xl">🙏</div>
+        <h2 class="text-2xl font-bold mt-3 text-slate-900">השאלה התקבלה, תודה</h2>
+        <div id="done-anon-box" class="hidden">
+          <p class="text-slate-600 mt-2">זה הקוד הסודי שלך. כדי לראות את התשובה, הזינו אותו בלשונית "בדיקת סטטוס פנייה".</p>
+          <div class="mt-6">
+            <label for="done-code" class="text-sm text-slate-600">הקוד הסודי</label>
+            <div class="mt-1 flex gap-2 max-w-xs mx-auto">
+              <input id="done-code" readonly dir="ltr" class="flex-1 min-w-0 rounded-lg border-2 border-na-200 bg-na-50 px-3 py-3 text-center text-4xl font-bold tracking-[.4em] text-na-800 font-mono" style="text-indent:.4em">
+              <button data-copy="done-code" class="copy-btn shrink-0 bg-na-700 hover:bg-na-800 text-white rounded-lg px-4 text-sm">העתקה</button>
+            </div>
+          </div>
+        </div>
+        <div id="done-wa-box" class="hidden mt-5 rounded-xl bg-green-50 border border-green-200 p-5 text-green-900">
+          <div class="text-3xl">💬</div>
+          <p class="mt-2 font-semibold">התשובה תישלח אליך בוואטסאפ</p>
+          <p class="mt-1 text-sm">למספר <b dir="ltr" id="done-wa-num"></b>, כשהוועדה תסיים לבחון את השאלה.</p>
+        </div>
+        <div id="done-email-box" class="hidden mt-5 rounded-xl bg-sky-50 border border-sky-200 p-5 text-sky-900">
+          <div class="text-3xl">✉️</div>
+          <p class="mt-2 font-semibold">התשובה תישלח אליך במייל</p>
+          <p class="mt-1 text-sm">לכתובת <b dir="ltr" id="done-email"></b>, כשהוועדה תסיים לבחון את השאלה.</p>
+        </div>
+
+        <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+          <a id="done-go-status" class="bg-na-700 hover:bg-na-800 text-white rounded-xl px-6 py-3 font-semibold">מעבר לבדיקת סטטוס פנייה</a>
+          <button id="done-new" class="rounded-xl border border-stone-300 hover:bg-stone-50 px-6 py-3">פנייה נוספת</button>
+        </div>
+        <p class="text-xs text-slate-400 mt-6">זו לא קו חירום. במצוקה או בסכנה: ער"ן 1201 · מד"א 101.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== מאגר שו"ת =================== -->
+  <section id="view-kb" class="view hidden">
+    <div class="mb-5">
+      <h1 class="text-2xl sm:text-3xl font-bold text-slate-900">מאגר שאלות ותשובות</h1>
+      <p class="text-slate-700 mt-2 text-lg font-medium">בחר נושא מהרשימה</p>
+      <p class="text-slate-500 mt-1 text-sm">כל השאלות כאן נוסחו מחדש והוסרו מהן פרטים מזהים. אנחנו מתמקדים בעקרונות, לא באישים.</p>
+    </div>
+
+    <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-4 sm:p-5">
+      <div class="relative">
+        <span class="absolute inset-y-0 right-3 flex items-center text-slate-400" aria-hidden="true">🔍</span>
+        <input id="kb-search" type="search" placeholder="חפשו שאלה, נושא או מילת מפתח (למשל: גזבר, רוטציה, צילום)..." class="w-full rounded-xl border border-stone-300 pr-10 pl-3 py-3 focus:outline-none focus:ring-2 focus:ring-na-600">
+      </div>
+      <div id="kb-chips" class="flex flex-wrap gap-2 mt-4" role="group" aria-label="סינון מהיר"></div>
+    </div>
+
+    <div class="flex items-center justify-between mt-5 mb-3 text-sm">
+      <span id="kb-count" class="text-slate-500"></span>
+      <button id="kb-clear" class="text-na-700 hover:underline hidden">ניקוי סינון</button>
+    </div>
+
+    <div id="kb-list" class="space-y-3"></div>
+
+    <div id="kb-empty" class="hidden bg-white rounded-2xl border border-dashed border-stone-300 p-8 text-center">
+      <div class="text-4xl">🤔</div>
+      <p class="mt-2 text-slate-600">לא מצאנו שאלה דומה במאגר.</p>
+      <a href="#/new" class="inline-block mt-4 bg-na-700 hover:bg-na-800 text-white rounded-xl px-5 py-2.5 font-medium">שאלו את הוועדה ←</a>
+    </div>
+
+    <div class="mt-8 bg-na-700 text-white rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        <div class="font-semibold text-lg">לא מצאתם תשובה?</div>
+        <div class="text-na-100 text-sm">אפשר לשאול באופן אנונימי לגמרי, בלי הרשמה.</div>
+      </div>
+      <a href="#/new" class="bg-white text-na-800 font-semibold rounded-xl px-5 py-2.5 hover:bg-na-50">פנייה חדשה</a>
+    </div>
+  </section>
+
+  <!-- =================== בדיקת סטטוס =================== -->
+  <section id="view-status" class="view hidden">
+    <div class="max-w-2xl mx-auto">
+      <h1 class="text-2xl sm:text-3xl font-bold text-slate-900">בדיקת סטטוס פנייה</h1>
+      <p class="text-slate-600 mt-2">לפניות אנונימיות: הזינו את הקוד הסודי בן 4 הספרות שקיבלתם.</p>
+
+      <form id="status-form" class="mt-5 bg-white rounded-2xl border border-slate-200 shadow-sm p-5">
+        <label for="status-input" class="text-sm text-slate-600">קוד סודי</label>
+        <div class="mt-1 flex flex-col sm:flex-row gap-2">
+          <input id="status-input" autocomplete="off" spellcheck="false" placeholder="••••" dir="ltr" inputmode="numeric" maxlength="4" pattern="[0-9]*" style="text-align:center;letter-spacing:.5em;text-indent:.5em;font-size:1.5rem;font-weight:700" class="flex-1 min-w-0 rounded-lg border border-stone-300 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-na-600">
+          <button class="bg-na-700 hover:bg-na-800 text-white rounded-lg px-6 py-2.5 font-semibold">בדיקה</button>
+        </div>
+        <div id="demo-codes" class="mt-3 text-xs text-slate-500">
+          🧪 קודים לדוגמה באבטיפוס:
+          <button type="button" class="demo-code underline text-na-700 mx-1" data-code="1111">1111</button> (נענתה) ·
+          <button type="button" class="demo-code underline text-na-700 mx-1" data-code="2222">2222</button> (בבחינה) ·
+          <button type="button" class="demo-code underline text-na-700 mx-1" data-code="3333">3333</button> (שאלת הבהרה)
+        </div>
+        <p id="status-locked" class="hidden mt-3 text-sm text-red-700"></p>
+      </form>
+
+      <div id="status-notfound" class="hidden mt-5 rounded-2xl border border-red-200 bg-red-50 p-5 text-red-900 fade-in">
+        <div class="font-semibold">לא מצאנו פנייה עם הקוד הזה</div>
+        <p class="text-sm mt-1">כדאי לבדוק שהוקלדו 4 הספרות הנכונות.</p>
+      </div>
+
+      <div id="status-result" class="hidden mt-5 space-y-4 fade-in"></div>
+    </div>
+  </section>
+  <!-- =================== ממשק משרתים (Admin) =================== -->
+  <section id="view-admin" class="view hidden">
+    <!-- כניסה -->
+    <div id="adm-login" class="max-w-sm mx-auto mt-6">
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6">
+        <div class="text-center">
+          <div class="w-12 h-12 mx-auto rounded-full bg-na-50 text-na-700 flex items-center justify-center text-xl">🔑</div>
+          <h1 class="text-xl font-bold text-slate-900 mt-3">כניסת משרתי הוועדה</h1>
+          <p class="text-sm text-slate-500 mt-1">גישה למשרתי תת-ועדת פיתוח חברותא בלבד</p>
+        </div>
+        <form id="adm-login-form" class="mt-5">
+          <label for="adm-pass" class="text-sm text-slate-600">סיסמה</label>
+          <input id="adm-pass" type="password" autocomplete="current-password" class="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-na-600">
+          <p id="adm-pass-err" class="hidden text-xs text-red-600 mt-1">סיסמה שגויה</p>
+          <button class="mt-4 w-full bg-na-700 hover:bg-na-800 text-white rounded-lg py-2.5 font-semibold">כניסה</button>
+        </form>
+        <p id="adm-demo-hint" class="text-[11px] text-slate-400 mt-4 leading-relaxed">🧪 באבטיפוס: הסיסמה היא <b dir="ltr">na2026</b>. במערכת האמיתית הכניסה תהיה בקישור חד-פעמי למייל השירות ובאימות דו-שלבי (MFA).</p>
+      </div>
+      <p class="text-center mt-4"><a href="#/new" class="text-sm text-na-700 hover:underline">← חזרה לאתר</a></p>
+    </div>
+
+    <!-- לוח בקרה -->
+    <div id="adm-app" class="hidden">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-5">
+        <div>
+          <div class="text-xs font-semibold text-na-600">ממשק משרתים</div>
+          <h1 class="text-2xl font-bold text-slate-900">לוח פניות</h1>
+        </div>
+        <div class="flex flex-wrap gap-2 text-sm">
+          <button id="adm-refresh" class="rounded-lg border border-stone-300 bg-white hover:bg-stone-50 px-3 py-2">🔄 רענון</button>
+          <button id="adm-reset" class="rounded-lg border border-stone-300 bg-white hover:bg-stone-50 px-3 py-2">🧪 איפוס נתוני הדגמה</button>
+          <a href="#/new" class="rounded-lg border border-stone-300 bg-white hover:bg-stone-50 px-3 py-2">צפייה באתר</a>
+          <button id="adm-logout" class="rounded-lg bg-slate-700 hover:bg-slate-800 text-white px-3 py-2">יציאה</button>
+        </div>
+      </div>
+
+      <div class="rounded-xl bg-na-50 border border-na-100 text-na-900 text-sm px-4 py-3 mb-5">
+        🤲 תזכורת: אנחנו מייעצים ולא מחליטים. האם המענה מבוסס על עקרונות ולא על דעה אישית? (מסורת 2 · עיקרון שירות 12)
+      </div>
+
+      <div id="adm-board"></div>
+      <div id="adm-detail" class="hidden"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="border-t border-stone-200 bg-white text-xs text-slate-500">
+  <div class="max-w-5xl mx-auto px-4 py-5 flex flex-col sm:flex-row gap-2 sm:justify-between">
+    <span>אנחנו חברים שנבחרו לשרת לתקופה מוגבלת. אנחנו לא שולטים, אנחנו משרתים (מסורת 2).</span>
+    <span>זו לא קו חירום · ער"ן 1201 · מד"א 101 · <b id="build-label">אבטיפוס להדגמה בלבד</b> · <a href="#/admin" class="text-slate-400 hover:text-na-700 hover:underline">כניסת משרתים</a></span>
+  </div>
+</footer>
+
+<div id="toast" class="fixed bottom-5 left-1/2 -translate-x-1/2 bg-slate-900 text-white text-sm rounded-lg px-4 py-2 shadow-lg opacity-0 pointer-events-none transition-opacity z-50">הועתק ✓</div>
+
+<!-- רכיבים חוזרים -->
+<style>
+  .role-pill span{display:inline-block;border:1px solid #d6d3d1;border-radius:9999px;padding:.35rem .9rem;font-size:.875rem;cursor:pointer;background:#fff;transition:all .15s}
+  .role-pill input:checked + span{background:#003366;color:#fff;border-color:#003366}
+  .role-pill input:focus-visible + span{outline:2px solid #003366;outline-offset:2px}
+  .channel-card{display:block;border:2px solid #e7e5e4;border-radius:1rem;padding:1rem;cursor:pointer;transition:all .15s;background:#fff}
+  .channel-card:hover{border-color:#8fb3d4}
+  .channel-card:has(input:checked){border-color:#003366;background:#f0f5fa}
+  .channel-card:has(input:focus-visible){outline:2px solid #003366;outline-offset:2px}
+  .channel-main{padding:1.25rem}
+  .channel-anon{display:flex;align-items:center;gap:.75rem;padding:.75rem 1rem;border-width:1px}
+  .anon-dot{display:inline-block;flex:0 0 auto;width:1.25rem;height:1.25rem;order:-1}
+  .channel-anon>span:last-child{flex:1 1 auto}
+  .channel-anon:has(input:checked) .anon-dot{border-color:#003366;background:radial-gradient(circle,#003366 45%,transparent 50%)}
+  .tab{color:#dce8f3;transition:all .15s}
+  .tab:hover{color:#fff;background:rgba(255,255,255,.08)}
+  .tab.active{background:#fff;color:#003366;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+  .chip{border:1px solid #d6d3d1;border-radius:9999px;padding:.35rem .85rem;font-size:.85rem;background:#fff;transition:all .15s}
+  .chip:hover{border-color:#003366}
+  .chip.on{background:#003366;color:#fff;border-color:#003366}
+  .tag{display:inline-block;font-size:.72rem;border-radius:.4rem;padding:.1rem .5rem;background:#f1f5f9;color:#334155}
+  .tag.trad{background:#dce8f3;color:#002a54}
+  .tag.concept{background:#e0e7ff;color:#3730a3}
+</style>
+
+<!-- הגדרות חיבור למסד הנתונים (אם הקובץ חסר – האתר עובד במצב הדגמה מקומי) -->
+<script src="config.js"></script>
+<script>
+"use strict";
+/* ---------- חיבור לענן (Supabase) ---------- */
+const FD_CFG = window.FD_CONFIG || {};
+const CLOUD = !!(FD_CFG.supabaseUrl && FD_CFG.supabaseKey && !/YOUR|PASTE|הדביקו/i.test(FD_CFG.supabaseUrl + FD_CFG.supabaseKey));
+async function rpc(fn, args){
+  let res;
+  try{
+    res = await fetch(`${FD_CFG.supabaseUrl.replace(/\/$/,"")}/rest/v1/rpc/${fn}`, {
+      method:"POST", headers:{"Content-Type":"application/json", "apikey":FD_CFG.supabaseKey},
+      body: JSON.stringify(args||{}), referrerPolicy:"no-referrer", cache:"no-store"
+    });
+  }catch(e){ const err = new Error("network"); err.code = "network"; throw err; }
+  const txt = await res.text(); let data = null;
+  try{ data = txt ? JSON.parse(txt) : null; }catch(e){ data = txt; }
+  if(!res.ok){ const m = (data && data.message) || ("http_"+res.status); const err = new Error(m); err.code = m; throw err; }
+  return data;
+}
+function netErr(e){ toast(e && e.code==="network" ? "אין חיבור לשרת. בדקו את האינטרנט ונסו שוב" : "משהו השתבש. נסו שוב בעוד רגע"); }
+
+/* ============================================================
+   נתונים: עץ קטגוריות (מתוך ה-PRD, סעיף 2.3)
+   ============================================================ */
+const TRADITIONS = [
+  "אחדות ורווחה משותפת","מצפון קבוצה, משרתים מהימנים ללא שליטה","תנאי החברות: הרצון להפסיק להשתמש",
+  "אוטונומיה מול השפעה על קבוצות אחרות","המטרה העיקרית: העברת המסר","אי-תמיכה ואי-מימון גורמים חיצוניים",
+  "כלכלה עצמית ודחיית תרומות חיצוניות","אי-מקצועיות; עובדים במרכזי שירות","ללא ארגון; גופי שירות אחראים",
+  "אין עמדה בנושאים חיצוניים","משיכה ולא פרסום; אנונימיות מול התקשורת","אנונימיות; עקרונות לפני אישים"
+];
+const CONCEPTS = [
+  "מבנה שירות למען המטרה העיקרית","האחריות והסמכות הסופית בידי הקבוצות","האצלת סמכות למבנה השירות",
+  "מנהיגות אפקטיבית ובחירת משרתים","נקודת החלטה ואחריותיות אחת","מצפון קבוצה כאמצעי רוחני",
+  "השתתפות מלאה בקבלת החלטות","יושרה ואפקטיביות בתקשורת","שקילת כל נקודות המבט",
+  "זכות לבקש תיקון עוול אישי","ניהול אחראי של כספי NA","שירות, לעולם לא שלטון"
+];
+const TAXONOMY = [
+  { id:"traditions", label:"📜 12 המסורות", subs: TRADITIONS.map((t,i)=>({id:"t"+(i+1), label:`מסורת ${i+1} – ${t}`})) },
+  { id:"concepts", label:"🏛️ 12 עקרונות השירות", subs: CONCEPTS.map((t,i)=>({id:"c"+(i+1), label:`עיקרון ${i+1} – ${t}`})) },
+  { id:"conscience", label:"🗳️ מצפון קבוצה וקבלת החלטות", subs:[
+      {id:"gc-business",label:"ניהול אסיפה עסקית"},{id:"gc-vote",label:"הצבעה מול קונצנזוס"},
+      {id:"gc-minority",label:"מיעוט שמרגיש שלא נשמע"},{id:"gc-affects",label:"החלטות שמשפיעות על קבוצות אחרות"},
+      {id:"gc-format",label:"פורמט המפגש ושינויו"}]},
+  { id:"finance", label:"💰 כספי הקבוצה (מסורת 7, גזברות)", subs:[
+      {id:"fin-treasurer",label:"תפקיד הגזבר/ית ורישום"},{id:"fin-reserve",label:"רזרבה מוקדמת"},
+      {id:"fin-surplus",label:"העברת עודפים לאזור/ארץ"},{id:"fin-missing",label:"כסף חסר או אי-סדרים"},
+      {id:"fin-rent",label:"שכר דירה ותשלום למקום המפגש"},{id:"fin-outside",label:"תרומות חיצוניות שהוצעו"}]},
+  { id:"rotation", label:"🔄 רוטציה ומחסור במשרתים", subs:[
+      {id:"rot-none",label:"אין מי שייקח תפקיד"},{id:"rot-holding",label:"משרת/ת שלא מסיים/ת תקופה"},
+      {id:"rot-cleantime",label:"דרישות זמן נקי לתפקידים"},{id:"rot-handover",label:"חפיפה והעברת תפקיד"},
+      {id:"rot-burnout",label:"שחיקה של משרתים"}]},
+  { id:"atmosphere", label:"🏠 אווירה ובטיחות במפגש", subs:[
+      {id:"atm-disruptive",label:"התנהגות משבשת במפגש"},{id:"atm-harass",label:"הטרדה וגבולות"},
+      {id:"atm-using",label:"הגעה תחת השפעה"},{id:"atm-newcomers",label:"חברים חדשים וקבלת פנים"},
+      {id:"atm-shares",label:"שיתופים ארוכים / חריגה מנושא"}]},
+  { id:"structure", label:"🧩 יחסים בין קבוצות ומבנה השירות", subs:[
+      {id:"str-asc",label:"הקבוצה והוועדה האזורית"},{id:"str-gsr",label:"נציג/ת קבוצה (GSR)"},
+      {id:"str-conflict",label:"מחלוקות בין קבוצות"},{id:"str-newgroup",label:"פתיחת קבוצה חדשה"}]},
+  { id:"public", label:"📣 המרחב הציבורי ויחסי ציבור", subs:[
+      {id:"pub-social",label:"רשתות חברתיות ואנונימיות"},{id:"pub-hi",label:"שיתוף פעולה עם מוסדות (H&I)"},
+      {id:"pub-media",label:"פניות מתקשורת"},{id:"pub-online",label:"מפגשים מקוונים"},
+      {id:"pub-logo",label:"שימוש בשם ובלוגו של NA"}]},
+  { id:"literature", label:"📘 ספרות NA", subs:[
+      {id:"lit-approved",label:"ספרות מאושרת מול ספרות אחרת"},{id:"lit-sale",label:"הפצה ומכירת ספרות בקבוצה"}]},
+  { id:"other", label:"❔ אחר / לא בטוח/ה", subs:[] }
+];
+
+/* ============================================================
+   נתונים: מאגר שו"ת לדוגמה
+   ============================================================ */
+const KB_BASE = [
+  {
+    id:"kb-treasurer",
+    title:"כיצד קבוצה יכולה לנהוג כשגזבר/ית אינו/ה מוסר/ת דיווח כספי, והחברים חוששים להעלות את הנושא?",
+    tags:[["trad","מסורת 7"],["concept","עיקרון 11"],["","גזברות"],["","מצפון קבוצה"]],
+    chips:["t7","finance","members"],
+    keywords:"גזבר גזברית כסף קופה דוח דיווח חסר כספים אמון ותיק פחד",
+    answer:`<p>מניסיון הוועדה, מצב כזה נפוץ יותר ממה שנדמה, ולרוב אינו נובע מכוונה רעה אלא מעומס, ממבוכה או מחוסר הדרכה. עם זאת, כספי הקבוצה שייכים לקבוצה כולה, וניהולם השקוף הוא חלק מהאחריות המשותפת שלנו (מסורת 7, עיקרון שירות 11).</p>
+<p class="mt-2">כמה דרכים שקבוצות אחרות מצאו מועילות:</p>
+<ul class="list-disc pr-5 mt-1 space-y-1">
+<li>להעלות את הנושא <b>באסיפה העסקית</b> כנושא כללי ("נקבע נוהל דיווח קבוע"), ולא כהאשמה אישית.</li>
+<li>לקבוע נוהל: דיווח חודשי קבוע, שני חברים שסופרים את הכסף יחד, ושמירת קבלות.</li>
+<li>לפנות לגזבר/ית בשיחה אישית ואוהבת לפני האסיפה, ולהציע עזרה.</li>
+<li>אם יש חשש לחוסר כספי, חשוב לזכור שהמטרה היא לשמור על הקבוצה ועל המטרה העיקרית, לא להעניש.</li>
+</ul>`,
+    points:["האם יש לקבוצה נוהל דיווח כתוב?","מי עוד יכול/ה לשתף בספירת הכסף?","איך נעלה את הנושא ברוח של עקרונות לפני אישים?"],
+    refs:["מדריך הגזבר (Treasurer's Handbook)","חוברת הקבוצה (The Group Booklet)"]
+  },
+  {
+    id:"kb-photos",
+    title:"חבר/ה מצלם/ת במפגשים ומעלה תמונות לרשתות החברתיות. מה אומרות המסורות, ואיך אפשר לפנות לזה?",
+    tags:[["trad","מסורת 12"],["trad","מסורת 11"],["","רשתות חברתיות"]],
+    chips:["t12","members"],
+    keywords:"צילום תמונות פייסבוק אינסטגרם רשתות חברתיות וואטסאפ סטורי פרסום פנים אנונימיות",
+    answer:`<p>האנונימיות היא הבסיס הרוחני של כל המסורות שלנו (מסורת 12), ובמסורת 11 אנחנו מתחייבים לשמור על אנונימיות אישית מול התקשורת, ורשתות חברתיות הן חלק מהתקשורת. תמונה שמזהה חבר/ה אחר/ת במפגש עלולה לחשוף אותו/ה בלי הסכמתו/ה.</p>
+<p class="mt-2">מניסיון הוועדה, לרוב מדובר בחבר/ה שפשוט לא מכיר/ה את המשמעות. דרכים שעזרו:</p>
+<ul class="list-disc pr-5 mt-1 space-y-1">
+<li>הוספת משפט קבוע לפורמט הפתיחה: "אנו מבקשים לא לצלם במפגש ולא לפרסם פרטים על מי שראיתם כאן".</li>
+<li>שיחה אישית ועדינה עם החבר/ה, מתוך שיתוף ולא נזיפה.</li>
+<li>אם צריך, דיון במצפון קבוצה על מדיניות צילום (למשל: רק בחגיגות, רק בגב, ורק בהסכמה).</li>
+</ul>`,
+    points:["האם יש בפורמט שלנו תזכורת לגבי צילום?","מה נעשה עם תמונות שכבר פורסמו?"],
+    refs:["It Works: How and Why – מסורות 11 ו-12","חוברת המידע על אנונימיות ברשתות חברתיות (NA World Services)"]
+  },
+  {
+    id:"kb-rotation",
+    title:"משרת/ת בקבוצה מחזיק/ה בתפקיד שנים ואינו/ה מוכן/ה לסיים. איך מעודדים רוטציה בלי לפגוע?",
+    tags:[["trad","מסורת 2"],["concept","עיקרון 4"],["","רוטציה"]],
+    chips:["t2","members"],
+    keywords:"רוטציה תפקיד מחזיק שנים לא מסיים שליטה משרת קבוע בחירות קדנציה מזכיר",
+    answer:`<p>מסורת 2 מזכירה לנו שהמנהיגים שלנו הם משרתים מהימנים ולא שולטים. רוטציה מאפשרת לחברים נוספים לצמוח דרך השירות ומגינה על הקבוצה מתלות באדם אחד.</p>
+<p class="mt-2">מניסיון הוועדה, פעמים רבות המשרת/ת פשוט חושש/ת שאם יעזוב/תעזוב, אף אחד לא ייקח את התפקיד. מה שעזר לקבוצות:</p>
+<ul class="list-disc pr-5 mt-1 space-y-1">
+<li>לקבוע במצפון קבוצה <b>אורך קדנציה</b> ברור לכל תפקיד (למשל שנה), ולכתוב אותו.</li>
+<li>לבקש מהמשרת/ת הוותיק/ה ללוות ולחפוף את מי שמחליף/ה אותו/ה. זו דרך מכבדת להעביר את הידע.</li>
+<li>להודות בפומבי על השירות הממושך.</li>
+</ul>`,
+    points:["האם הגדרנו אורך קדנציה לכל תפקיד?","מי יכול/ה ללמוד את התפקיד כבר עכשיו?"],
+    refs:["חוברת הקבוצה (The Group Booklet)","12 עקרונות השירות – עיקרון 4"]
+  },
+  {
+    id:"kb-rent",
+    title:"מוסד שבו מתקיים המפגש מציע לוותר על שכר הדירה או לתרום לקבוצה. האם מותר לקבל?",
+    tags:[["trad","מסורת 7"],["trad","מסורת 6"],["","שכר דירה"]],
+    chips:["t7","finance"],
+    keywords:"שכר דירה תרומה מוסד מרכז גמילה עירייה חינם ויתור מימון חיצוני כסף מקום",
+    answer:`<p>מסורת 7 אומרת שכל קבוצה צריכה להיות בעלת כלכלה עצמית מלאה ולדחות תרומות מבחוץ. מסורת 6 מזכירה לנו לא לקשור את שם NA לגורמים חיצוניים. כשמוסד מממן את הקבוצה, נוצרת תלות שעלולה להשפיע על החופש שלנו.</p>
+<p class="mt-2">מניסיון הוועדה, קבוצות רבות מצאו איזון:</p>
+<ul class="list-disc pr-5 mt-1 space-y-1">
+<li>להודות על ההצעה, ולהסביר בנימוס שהקבוצה משלמת על עצמה לפי המסורות שלנו.</li>
+<li>לשלם סכום הוגן, גם אם הוא סמלי, שמשקף את השימוש במקום.</li>
+<li>לדון במצפון קבוצה מה נחשב "הוגן", ולתעד את ההחלטה.</li>
+</ul>`,
+    points:["מה הסכום שהקבוצה יכולה לשלם באופן קבוע?","האם השימוש במקום יוצר רושם של שיוך למוסד?"],
+    refs:["It Works: How and Why – מסורות 6 ו-7","מדריך הגזבר (Treasurer's Handbook)"]
+  },
+  {
+    id:"kb-format",
+    title:"חלק מחברי הקבוצה רוצים לשנות את פורמט המפגש וחלק מתנגדים בתוקף. איך מגיעים להחלטה בלי לפלג את הקבוצה?",
+    tags:[["trad","מסורת 1"],["trad","מסורת 2"],["concept","עיקרון 9"],["","מצפון קבוצה"]],
+    chips:["t2","members"],
+    keywords:"פורמט שינוי מפגש מחלוקת פילוג הצבעה קונצנזוס מיעוט אסיפה עסקית החלטה ויכוח",
+    answer:`<p>מצפון קבוצה הוא הדרך הרוחנית שבה אנחנו מזמינים כוח עליון אוהב להשפיע על ההחלטות שלנו (מסורת 2, עיקרון 6). הוא לא רק הצבעה. עיקרון 9 מזכיר לשקול בכובד ראש את כל נקודות המבט, גם של המיעוט.</p>
+<p class="mt-2">מניסיון הוועדה:</p>
+<ul class="list-disc pr-5 mt-1 space-y-1">
+<li>לתת לכל צד להציג את עמדתו באסיפה העסקית, בלי להפריע, ולהתחיל ברגע של שקט או תפילה.</li>
+<li>לא למהר להצביע. לפעמים כדאי לדחות את ההחלטה לאסיפה הבאה כדי לאפשר מחשבה.</li>
+<li>לשקול ניסיון לתקופה מוגבלת (למשל שלושה חודשים) ואז הערכה מחדש.</li>
+<li>לזכור את מסורת 1: הרווחה המשותפת והאחדות קודמות להעדפות אישיות.</li>
+</ul>`,
+    points:["מה החשש של כל צד?","האם אפשר לנסות את השינוי לתקופת ניסיון?","איך נוודא שהמיעוט מרגיש שנשמע?"],
+    refs:["חוברת הקבוצה (The Group Booklet) – אסיפות עסקיות","12 עקרונות השירות – עקרונות 6 ו-9"]
+  },
+  {
+    id:"kb-outside",
+    title:"חבר/ה משתף/ת במפגש דעות פוליטיות או ממליץ/ה על טיפול מסוים. איך נוהגים בזה ברוח המסורות?",
+    tags:[["trad","מסורת 10"],["trad","מסורת 5"],["","שיתופים"]],
+    chips:["members"],
+    keywords:"פוליטיקה דעות שיתוף נושא חיצוני טיפול תרופות המלצה בחירות ויכוח מחלוקת",
+    answer:`<p>מסורת 10 קובעת של-NA אין עמדה בנושאים חיצוניים, כדי ששם NA לא ייגרר למחלוקת ציבורית. מסורת 5 מזכירה שהמטרה העיקרית של המפגש היא להעביר את המסר למכור/ה שעדיין סובל/ת.</p>
+<p class="mt-2">מניסיון הוועדה, לרוב אין צורך "להשתיק" אף אחד. דרכים שעזרו:</p>
+<ul class="list-disc pr-5 mt-1 space-y-1">
+<li>לכלול בפורמט הפתיחה תזכורת עדינה להתמקד בחוויית ההחלמה האישית.</li>
+<li>המנחה יכול/ה להודות על השיתוף ולהזכיר בנימוס את מסורת 10, בלי להיכנס לוויכוח.</li>
+<li>אם הדבר חוזר, שיחה אישית אחרי המפגש, מתוך אכפתיות.</li>
+</ul>`,
+    points:["האם הפורמט שלנו כולל הנחיה לשיתופים?","איך המנחה יכול/ה להגיב באופן אחיד ומכבד?"],
+    refs:["It Works: How and Why – מסורות 5 ו-10"]
+  }
+];
+
+const FILTER_CHIPS = [
+  {key:"all",label:"הכל"},
+  {key:"t2",label:"מסורת 2"},
+  {key:"t7",label:"מסורת 7"},
+  {key:"t12",label:"מסורת 12"},
+  {key:"finance",label:"כספי קבוצה"},
+  {key:"members",label:"יחסי חברים"}
+];
+
+/* ============================================================
+   כלים: נרמול עברית לחיפוש
+   ============================================================ */
+const FINALS = {"ך":"כ","ם":"מ","ן":"נ","ף":"פ","ץ":"צ"};
+function normalizeHe(s){
+  return (s||"").toLowerCase()
+    .replace(/[֑-ׇ]/g,"")           // ניקוד וטעמים
+    .replace(/[ךםןףץ]/g,c=>FINALS[c])
+    .replace(/[״"׳'`.,;:!?()\[\]{}\-–—\/\\]/g," ")
+    .replace(/\s+/g," ").trim();
+}
+const PREFIXES = ["וה","שה","וב","ול","ומ","וש","כש","מה","בה","לה","ו","ה","ב","ל","מ","ש","כ"];
+function stems(word){
+  const out = new Set([word]);
+  for(const p of PREFIXES){ if(word.startsWith(p) && word.length - p.length >= 2) out.add(word.slice(p.length)); }
+  // סיומות רבים נפוצות
+  for(const s of ["ים","ות"]){ for(const w of [...out]) if(w.endsWith(s) && w.length-2>=2) out.add(w.slice(0,-2)); }
+  return [...out];
+}
+const SYNONYMS = [
+  ["גזבר","גזברית","כספ","קופה","כסף"],["רוטציה","תפקיד","קדנציה"],["צילום","תמונ","מצלמ","פייסבוק","אינסטגרמ"],
+  ["gsr","נציג"],["פוליטיק","בחירות"],["שכר","דירה","שכירות"]
+];
+function expand(tokens){
+  const out = new Set(tokens);
+  for(const t of tokens) for(const g of SYNONYMS) if(g.some(x=>t.startsWith(x)||x.startsWith(t))) g.forEach(x=>out.add(x));
+  return [...out];
+}
+// ערכים שפורסמו מממשק המשרתים (נשמרים בדפדפן) + ערכי הבסיס
+const KB_PUB_KEY = "fd-proto-kb-published-v1";
+let KB_PUBLISHED = [];
+function loadPublished(){ if(CLOUD) return; try{ KB_PUBLISHED = JSON.parse(localStorage.getItem(KB_PUB_KEY)||"[]"); }catch(e){ KB_PUBLISHED = KB_PUBLISHED||[]; } }
+function persistPublished(){ if(CLOUD) return; try{ localStorage.setItem(KB_PUB_KEY, JSON.stringify(KB_PUBLISHED)); }catch(e){} }
+let KB = [], KB_INDEX = [];
+// אינדקס: לכל ערך – טוקנים מנורמלים
+function indexEntry(e){
+  const text = normalizeHe([e.title, e.keywords||"", e.tags.map(t=>t[1]).join(" "), e.answer.replace(/<[^>]+>/g," ")].join(" "));
+  const toks = new Set(); text.split(" ").forEach(w=>stems(w).forEach(s=>toks.add(s)));
+  return {id:e.id, toks:[...toks], titleNorm: normalizeHe(e.title)};
+}
+function rebuildKB(){ KB = [...KB_PUBLISHED.slice().reverse(), ...KB_BASE]; KB_INDEX = KB.map(indexEntry); }
+loadPublished(); rebuildKB();
+function scoreEntry(idx, queryTokens){
+  let score = 0;
+  for(const q of queryTokens){
+    if(q.length<2) continue;
+    let best = 0;
+    for(const t of idx.toks){
+      if(t===q){best=Math.max(best,3);}
+      else if(q.length>=3 && (t.startsWith(q)||q.startsWith(t)) && t.length>=3){best=Math.max(best,2);}
+      else if(q.length>=4 && t.includes(q)){best=Math.max(best,1);}
+    }
+    if(idx.titleNorm.includes(q)) best += 1;
+    score += best;
+  }
+  return score;
+}
+function searchKB(query){
+  const words = normalizeHe(query).split(" ").filter(w=>w.length>=2);
+  if(!words.length) return KB.map(e=>({e,score:0}));
+  const qTokens = expand([...new Set(words.flatMap(stems))]);
+  return KB.map((e,i)=>({e,score:scoreEntry(KB_INDEX[i],qTokens)}))
+           .filter(r=>r.score>0).sort((a,b)=>b.score-a.score);
+}
+
+/* ============================================================
+   כלים כלליים
+   ============================================================ */
+const $ = s=>document.querySelector(s);
+const $$ = s=>[...document.querySelectorAll(s)];
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function toast(msg){const t=$("#toast");t.textContent=msg;t.style.opacity="1";clearTimeout(t._h);t._h=setTimeout(()=>t.style.opacity="0",1600);}
+async function copyText(text){
+  try{ await navigator.clipboard.writeText(text); }
+  catch(e){ const ta=document.createElement("textarea"); ta.value=text; document.body.appendChild(ta); ta.select(); try{document.execCommand("copy");}catch(_){} ta.remove(); }
+  toast("הועתק ✓");
+}
+const B62 = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+function randomToken(len=22){
+  const bytes = new Uint8Array(len); crypto.getRandomValues(bytes);
+  return [...bytes].map(b=>B62[b%62]).join("");
+}
+const WORDS = ["ים","גשר","תפוח","אור","שמש","עץ","נהר","הר","כוכב","ענן","סלע","שביל","גן","ציפור","חלון","דרך","מעיין","זית","רימון","לבנה","אופק","גל","שחר","ורד","אלון","ברוש","דבש","חוף","יונה","כרם","מגדל","נחל"];
+function randomBackup(){
+  const b = new Uint8Array(4); crypto.getRandomValues(b);
+  return [...b].map(x=>WORDS[x%WORDS.length]).join("-");
+}
+// קוד סודי לפנייה אנונימית: 4 ספרות (רק אם הפונה בחר/ה באפשרות האנונימית)
+function secretCode(){
+  const anonInUse = new Set(Object.entries(STORE).filter(([k,v])=>isAnon(v)).map(([k])=>k));
+  if(anonInUse.size >= 9000) throw new Error("אין קודים פנויים");
+  let c; do { const b = new Uint16Array(1); crypto.getRandomValues(b); c = String(b[0] % 10000).padStart(4,"0"); } while(anonInUse.has(c));
+  return c;
+}
+const normCode = s=>String(s||"").replace(/\D/g,"");
+const isAnon = r => !r.channel || r.channel==="anonymous" || r.channel==="link_only";
+function internalId(){ return "id-" + randomToken(16); }
+// טלפון: מקבל 050-1234567 / 0501234567 / +972501234567
+function normPhone(s){
+  let d = String(s||"").replace(/\D/g,"");
+  if(d.startsWith("00")) d = d.slice(2);
+  if(d.startsWith("0")) d = "972" + d.slice(1);
+  return d;
+}
+function validPhone(s){ const d = normPhone(s); return /^9725\d{8}$/.test(d) || (!d.startsWith("972") && /^\d{8,15}$/.test(d)) || /^972[2-9]\d{7,8}$/.test(d); }
+function fmtPhone(s){ const d = normPhone(s); return d.startsWith("972") ? "0" + d.slice(3).replace(/^(\d{2})(\d{3})(\d+)$/,"$1-$2$3").replace(/^(\d{2})-(\d{7})$/,"$1-$2") : "+" + d; }
+function fmtDate(d){ return new Date(d).toLocaleDateString("he-IL",{day:"numeric",month:"long",year:"numeric"}); }
+function baseUrl(){ return location.href.split("#")[0]; }
+const SERVICE_WA = "972500000000"; // מספר לדוגמה – להחליף במספר טלפון השירות של הוועדה
+
+/* ============================================================
+   "מסד נתונים" מדומה (בזיכרון + localStorage אם זמין)
+   ============================================================ */
+const STORE_KEY = "fd-proto-inquiries-v2";
+let STORE = {};
+if(!CLOUD){ try{ STORE = JSON.parse(localStorage.getItem(STORE_KEY)||"{}"); }catch(e){ STORE = {}; } }
+function persist(){ if(CLOUD) return; try{ localStorage.setItem(STORE_KEY, JSON.stringify(STORE)); }catch(e){} }
+
+const DEMO = {
+  "1111": {
+    status:"closed", created: Date.now()-12*864e5, answered: Date.now()-2*864e5,
+    categoryLabel:"כספי הקבוצה (מסורת 7, גזברות) · תפקיד הגזבר/ית ורישום",
+    question:"בקבוצה שלנו הגזבר לא מוסר דיווח כבר כמה חודשים, ויש חשש שחסר כסף. אנחנו לא יודעים איך להעלות את זה בלי לפגוע בו.",
+    answer:`<p>תודה ששיתפתם. מניסיון הוועדה, מצב כזה נפוץ, ולרוב נובע מעומס או ממבוכה ולא מכוונה רעה. כספי הקבוצה שייכים לקבוצה כולה, והשקיפות בניהולם היא אחריות משותפת (מסורת 7, עיקרון שירות 11).</p>
+<p class="mt-2">הצעות מניסיון של קבוצות אחרות:</p>
+<ul class="list-disc pr-5 mt-1 space-y-1">
+<li>שיחה אישית ואוהבת עם הגזבר לפני האסיפה, עם הצעה לעזרה.</li>
+<li>העלאת הנושא באסיפה העסקית כנוהל כללי ("דיווח חודשי קבוע, שני סופרים") ולא כהאשמה.</li>
+<li>קביעת נוהל כתוב לשמירת קבלות ולהעברת עודפים לאזור.</li>
+</ul>
+<p class="mt-3 text-slate-600">זו חוויה משותפת ולא הוראה. מומלץ להביא את הנושא לדיון במצפון הקבוצה. נשמח לשמוע איך זה התפתח.</p>`,
+    refs:["מדריך הגזבר (Treasurer's Handbook)","חוברת הקבוצה (The Group Booklet)"]
+  },
+  "2222": {
+    status:"in_review", created: Date.now()-5*864e5,
+    categoryLabel:"רוטציה ומחסור במשרתים · אין מי שייקח תפקיד",
+    question:"כבר חצי שנה אף אחד לא מתנדב להיות נציג הקבוצה לוועדה האזורית. מה אפשר לעשות?"
+  },
+  "3333": {
+    status:"awaiting_clarification", created: Date.now()-4*864e5,
+    categoryLabel:"מצפון קבוצה וקבלת החלטות · פורמט המפגש ושינויו",
+    question:"יש מחלוקת גדולה בקבוצה על שינוי הפורמט. חלק מאיימים לעזוב.",
+    clarification:"כדי שנוכל לשתף מניסיוננו בצורה מדויקת: האם הנושא כבר עלה לדיון באסיפה עסקית, ואם כן, מה הוחלט?"
+  }
+};
+DEMO["2222"].publish = true; DEMO["2222"].urgency="deadline_2w"; DEMO["2222"].role="group_servant";
+DEMO["3333"].role="member";
+Object.values(DEMO).forEach(d=>d.channel="anonymous");
+// פניות לדוגמה עם פרטי קשר (המספר והכתובת פיקטיביים)
+DEMO["id-demo-whatsapp"] = { status:"new", created: Date.now()-1*864e5, channel:"whatsapp", phone:"972501234567", role:"group_servant", urgency:"deadline_1w",
+  categoryLabel:"כספי הקבוצה (מסורת 7, גזברות) · תרומות חיצוניות שהוצעו",
+  question:"בעל המקום שבו אנחנו נפגשים הציע לוותר לנו על שכר הדירה לחצי שנה, כי הוא רוצה לעזור. האם מותר לקבל את זה לפי המסורות?" };
+DEMO["id-demo-email"] = { status:"new", created: Date.now()-2*864e5, channel:"email", email:"member@example.com", role:"member", urgency:"normal", publish:true,
+  categoryLabel:"המרחב הציבורי ויחסי ציבור · מפגשים מקוונים",
+  question:"בקבוצת הזום שלנו יש חברים שמשאירים מצלמה כבויה ולא מזדהים בשם. חלק מהחברים מרגישים שזה פוגע באמון. איך נכון לנהוג?" };
+function seedDemo(force){
+  for(const [k,v] of Object.entries(DEMO)){ if(force || !STORE[k]) STORE[k] = JSON.parse(JSON.stringify({...v, demo:true})); }
+  persist();
+}
+if(!CLOUD) seedDemo(false);
+function reloadStore(){ try{ STORE = JSON.parse(localStorage.getItem(STORE_KEY)||"{}"); }catch(e){} }
+function lookup(code){
+  // בדיקת סטטוס באתר קיימת רק לפניות אנונימיות (עם קוד סודי)
+  const n = normCode(code);
+  if(n.length!==4) return null;
+  const rec = STORE[n];
+  if(rec && isAnon(rec)) return {key:n, rec, demo:!!rec.demo};
+  return null;
+}
+
+/* ============================================================
+   ניווט (Hash Router)
+   ============================================================ */
+function route(){
+  const h = location.hash.replace(/^#\/?/,"");
+  const [view, param] = h.split("/");
+  const v = ["new","kb","status","admin"].includes(view) ? view : "new";
+  $$(".view").forEach(s=>s.classList.add("hidden"));
+  $("#view-"+v).classList.remove("hidden");
+  $$(".tab").forEach(t=>t.classList.toggle("active", t.dataset.tab===v));
+  if(v==="status" && param){ $("#status-input").value = decodeURIComponent(param); checkCode(decodeURIComponent(param)); }
+  if(v==="admin"){ adminOpenKey = param ? decodeURIComponent(param) : null; renderAdmin(); }
+  if(v==="kb"){ renderKB(); }
+  if(v==="kb" && param){ const d=document.getElementById(param); if(d){d.open=true; setTimeout(()=>d.scrollIntoView({behavior:"smooth",block:"start"}),50);} }
+  window.scrollTo({top:0});
+}
+window.addEventListener("hashchange", route);
+
+/* ============================================================
+   טופס פנייה
+   ============================================================ */
+function initForm(){
+  const main = $("#cat-main"), sub = $("#cat-sub");
+  main.innerHTML = `<option value="">לא בטוח/ה (הוועדה תסווג)</option>` + TAXONOMY.map(c=>`<option value="${c.id}">${esc(c.label)}</option>`).join("");
+  sub.innerHTML = `<option value="">בחרו קודם קטגוריה ראשית</option>`;
+  main.addEventListener("change", ()=>{
+    const cat = TAXONOMY.find(c=>c.id===main.value);
+    if(!cat || !cat.subs.length){ sub.innerHTML=`<option value="">${cat?"אין נושאי משנה":"בחרו קודם קטגוריה ראשית"}</option>`; sub.disabled=true; return; }
+    sub.disabled=false;
+    sub.innerHTML = `<option value="">כללי / לא בטוח/ה</option>` + cat.subs.map(s=>`<option value="${s.id}">${esc(s.label)}</option>`).join("");
+  });
+
+  // ערוצים
+  $$('input[name="channel"]').forEach(r=>r.addEventListener("change", ()=>{
+    const v = $('input[name="channel"]:checked').value;
+    $("#channel-error").classList.add("hidden");
+    $("#ch-anon-info").classList.toggle("hidden", v!=="anonymous");
+    $("#ch-whatsapp-info").classList.toggle("hidden", v!=="whatsapp");
+    $("#ch-email-info").classList.toggle("hidden", v!=="email");
+  }));
+
+  // שדה שאלה: מונה, PII, הצעות
+  const ta = $("#q-text"); let deb;
+  ta.addEventListener("input", ()=>{
+    $("#q-count").textContent = `${ta.value.length} / 3000`;
+    if(ta.value.trim().length>=50) $("#q-error").classList.add("hidden");
+    clearTimeout(deb); deb = setTimeout(()=>{ detectPII(ta.value); suggest(ta.value); }, 350);
+  });
+
+  $("#inquiry-form").addEventListener("submit", onSubmit);
+  $("#done-new").addEventListener("click", resetForm);
+}
+
+/* זיהוי פרטים מזהים – בדפדפן בלבד */
+const CITIES = ["תל אביב","תל-אביב","ירושלים","חיפה","רחובות","ראשון לציון","ראשון","פתח תקווה","פתח תקוה","פ\"ת","נתניה","חולון","בת ים","רמת גן","רמת-גן","בני ברק","הרצליה","כפר סבא","רעננה","הוד השרון","רמלה","לוד","מודיעין","אשדוד","אשקלון","באר שבע","נס ציונה","יבנה","גבעתיים","רמת השרון","ראש העין","יפו","קריית אונו","אור יהודה","יהוד","שוהם","גדרה","אילת","טבריה","נצרת","עפולה","חדרה","הרצליה","קיסריה","זכרון יעקב"];
+const NAMES = ["דני","דניאל","משה","יוסי","יוסף","דוד","אבי","רוני","מיכל","שרה","רחל","נועה","יעל","תמר","איתי","עומר","אורי","גיל","רון","שי","אלון","ליאור","מאיה","שירה","עדי","אסף","עמית","ניר","אריאל","אלכס","דימה","סשה","מוחמד","אחמד","יוני","קובי","מוטי","שלומי","אילנה","ורד","אורית","סיגל"];
+function piiScan(text){
+  const patterns = [
+    ["phone",/(?:\+?972[-\s]?|0)(?:5\d|[23489]|7\d)[-\s]?\d{3}[-\s]?\d{4}/g],
+    ["email",/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g],
+    ["url",/(?:https?:\/\/|www\.)\S+/g],
+    ["group",/קבוצת\s+["'״׳]?[\u0590-\u05FFA-Za-z]+["'״׳]?/g],
+    ["street",/(?:ברחוב|רחוב|ברח'|רח')\s+[\u0590-\u05FF]+(?:\s\d+)?/g],
+    ["date",/\b\d{1,2}[./]\d{1,2}(?:[./]\d{2,4})?\b/g]
+  ];
+  const escRe = s=>s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+  const wordRe = list=>new RegExp(`(^|[\\s,.;:!?()"'״׳])([והבלמש]?(?:${list.map(escRe).join("|")}))(?=$|[\\s,.;:!?()"'״׳])`,"g");
+  let ranges = [];
+  for(const [type,re] of patterns){ let m; re.lastIndex=0; while((m=re.exec(text))){ ranges.push([m.index, m.index+m[0].length, type]); } }
+  for(const [type,re] of [["city",wordRe(CITIES)],["name",wordRe(NAMES)]]){ let m; while((m=re.exec(text))){ const st=m.index+m[1].length; ranges.push([st, st+m[2].length, type]); } }
+  ranges.sort((a,b)=>a[0]-b[0]);
+  const merged=[]; for(const r of ranges){ if(merged.length && r[0]<=merged[merged.length-1][1]) merged[merged.length-1][1]=Math.max(merged[merged.length-1][1],r[1]); else merged.push([...r]); }
+  let html="", last=0;
+  for(const [st,en] of merged){ html += esc(text.slice(last,st)) + `<mark class="pii">${esc(text.slice(st,en))}</mark>`; last=en; }
+  html += esc(text.slice(last));
+  return {count: merged.length, html, ranges: merged};
+}
+const REDACT_WITH = {phone:"[פרט הוסר]",email:"[פרט הוסר]",url:"[קישור הוסר]",group:"הקבוצה",street:"[מקום הוסר]",date:"[מועד]",city:"העיר",name:"חבר/ה"};
+function piiRedact(text){
+  const {ranges} = piiScan(text);
+  let out = text;
+  for(const [st,en,type] of ranges.slice().reverse()){
+    const orig = text.slice(st,en);
+    // שמירה על אות היחס (ב/ל/מ/ו/ש) בלי "ה" כפולה: "בנתניה" → "בעיר", "בקבוצת X" → "בקבוצה"
+    let pre = "", rep = REDACT_WITH[type];
+    if((type==="city"||type==="name") && /^[והבלמש]/.test(orig) && ![...CITIES,...NAMES].includes(orig)) pre = orig[0];
+    const prevCh = text[st-1]||"", prevPrev = text[st-2]||" ";
+    const hasPrefix = pre || (/[בלמ]/.test(prevCh) && /[\s"'(״׳]/.test(prevPrev));
+    if(hasPrefix && rep.startsWith("ה")) rep = rep.slice(1);
+    out = out.slice(0,st) + pre + rep + out.slice(en);
+  }
+  return out;
+}
+function detectPII(text){
+  const box = $("#pii-box");
+  if(!text || text.length<5){ box.classList.add("hidden"); return; }
+  const r = piiScan(text);
+  if(!r.count){ box.classList.add("hidden"); return; }
+  $("#pii-preview").innerHTML = r.html;
+  box.classList.remove("hidden");
+}
+
+/* הצעות מהמאגר בזמן הקלדה */
+function suggest(text){
+  const list = $("#suggest-list"), empty = $("#suggest-empty");
+  if(text.trim().length<15){ list.innerHTML=""; empty.classList.remove("hidden"); return; }
+  const res = searchKB(text).filter(r=>r.score>=3).slice(0,3);
+  if(!res.length){ list.innerHTML=`<li class="text-sm text-slate-500">לא נמצאה שאלה דומה. נשמח לענות!</li>`; empty.classList.add("hidden"); return; }
+  empty.classList.add("hidden");
+  list.innerHTML = res.map(({e})=>`
+    <li class="fade-in">
+      <a href="#/kb/${e.id}" target="_self" class="block rounded-lg border border-stone-200 hover:border-na-500 hover:bg-na-50 p-3 text-sm">
+        <div class="font-medium text-slate-800 leading-snug">${esc(e.title)}</div>
+        <div class="mt-1 flex flex-wrap gap-1">${e.tags.slice(0,2).map(t=>`<span class="tag ${t[0]==="trad"?"trad":t[0]==="concept"?"concept":""}">${esc(t[1])}</span>`).join("")}</div>
+      </a>
+    </li>`).join("") + `<li class="text-xs text-slate-400 pt-1">הטיוטה שלכם נשמרת בטופס גם אם תעברו לקרוא.</li>`;
+}
+
+function onSubmit(ev){
+  ev.preventDefault();
+  const q = $("#q-text").value.trim();
+  let ok = true;
+  if(q.length<50){ $("#q-error").classList.remove("hidden"); $("#q-text").focus(); ok=false; }
+  const chEl = $('input[name="channel"]:checked');
+  const channel = chEl ? chEl.value : null;
+  if(!channel){ $("#channel-error").classList.remove("hidden"); if(ok){ $("#channel-group").scrollIntoView({behavior:"smooth",block:"center"}); } ok=false; }
+  const email = $("#email").value.trim();
+  if(channel==="email" && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){ $("#email-error").classList.remove("hidden"); if(ok) $("#email").focus(); ok=false; }
+  else $("#email-error").classList.add("hidden");
+  const phone = $("#wa-phone").value.trim();
+  if(channel==="whatsapp" && !validPhone(phone)){ $("#wa-error").classList.remove("hidden"); if(ok) $("#wa-phone").focus(); ok=false; }
+  else $("#wa-error").classList.add("hidden");
+  if($("#hp_website").value){ return; } // בוט
+  if(!ok) return;
+
+  const btn=$("#submit-btn"); btn.disabled=true; $("#submit-label").textContent="שולח..."; $("#submit-spin").classList.remove("hidden");
+
+  const mainCat = TAXONOMY.find(c=>c.id===$("#cat-main").value);
+  const subCat = mainCat && mainCat.subs.find(s=>s.id===$("#cat-sub").value);
+  const doneBtn = ()=>{ btn.disabled=false; $("#submit-label").textContent="שליחת הפנייה"; $("#submit-spin").classList.add("hidden"); };
+  if(CLOUD){
+    const payload = {
+      channel, question: q, tried: $("#q-tried").value.trim(),
+      categoryLabel: mainCat ? mainCat.label.replace(/^\S+\s/,"") + (subCat?` · ${subCat.label}`:"") : "לא סווג (הוועדה תסווג)",
+      urgency: ($('input[name="urgency"]:checked')||{}).value || "normal",
+      role: ($('input[name="role"]:checked')||{}).value || null,
+      publish: $("#publish").checked,
+      phone: channel==="whatsapp" ? normPhone(phone) : null,
+      email: channel==="email" ? email : null
+    };
+    rpc("fd_submit", {p: payload})
+      .then(r=>{ showDone(r && r.code, channel, email, phone); doneBtn(); })
+      .catch(e=>{ doneBtn(); if(e.code==="rate_limited") toast("נשלחו הרבה פניות בזמן קצר. נסו שוב בעוד כמה דקות"); else if(e.code==="bad_phone") $("#wa-error").classList.remove("hidden"); else if(e.code==="bad_email") $("#email-error").classList.remove("hidden"); else netErr(e); });
+    return;
+  }
+
+  setTimeout(()=>{
+    const token = channel==="anonymous" ? secretCode() : internalId();
+    STORE[token] = {
+      status:"new", created: Date.now(),
+      categoryLabel: mainCat ? mainCat.label.replace(/^\S+\s/,"") + (subCat?` · ${subCat.label}`:"") : "לא סווג (הוועדה תסווג)",
+      question: q, channel, publish: $("#publish").checked,
+      tried: $("#q-tried").value.trim(),
+      urgency: ($('input[name="urgency"]:checked')||{}).value || "normal",
+      role: ($('input[name="role"]:checked')||{}).value || null,
+      phone: channel==="whatsapp" ? normPhone(phone) : null,
+      email: channel==="email" ? email : null
+    };
+    persist();
+    showDone(token, channel, email, phone);
+    btn.disabled=false; $("#submit-label").textContent="שליחת הפנייה"; $("#submit-spin").classList.add("hidden");
+  }, 1300);
+}
+
+function showDone(token, channel, email, phone){
+  const anon = channel==="anonymous";
+  $("#done-anon-box").classList.toggle("hidden", !anon);
+  $("#done-code").value = anon ? token : "";
+  $("#done-go-status").classList.toggle("hidden", !anon);
+  $("#done-go-status").href = anon ? `#/status/${token}` : "#/status";
+  $("#done-wa-box").classList.toggle("hidden", channel!=="whatsapp");
+  $("#done-wa-num").textContent = channel==="whatsapp" ? fmtPhone(phone) : "";
+  $("#done-email-box").classList.toggle("hidden", channel!=="email");
+  $("#done-email").textContent = email;
+  $("#new-form-wrap").classList.add("hidden");
+  $("#new-done").classList.remove("hidden");
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+function resetForm(){
+  $("#inquiry-form").reset();
+  $("#cat-main").dispatchEvent(new Event("change"));
+  $("#ch-whatsapp-info").classList.add("hidden"); $("#ch-email-info").classList.add("hidden"); $("#ch-anon-info").classList.add("hidden"); $("#channel-error").classList.add("hidden"); $("#wa-error").classList.add("hidden"); $("#email-error").classList.add("hidden");
+  $("#q-count").textContent="0 / 3000"; $("#pii-box").classList.add("hidden");
+  $("#suggest-list").innerHTML=""; $("#suggest-empty").classList.remove("hidden");
+  $("#new-done").classList.add("hidden"); $("#new-form-wrap").classList.remove("hidden");
+  window.scrollTo({top:0});
+}
+
+/* ============================================================
+   מאגר שו"ת
+   ============================================================ */
+let kbFilter = "all";
+function initKB(){
+  $("#kb-chips").innerHTML = FILTER_CHIPS.map(c=>`<button type="button" class="chip ${c.key==="all"?"on":""}" data-key="${c.key}" aria-pressed="${c.key==="all"}">${esc(c.label)}</button>`).join("");
+  $("#kb-chips").addEventListener("click", e=>{
+    const b = e.target.closest(".chip"); if(!b) return;
+    kbFilter = b.dataset.key;
+    $$("#kb-chips .chip").forEach(x=>{x.classList.toggle("on", x===b); x.setAttribute("aria-pressed", x===b);});
+    renderKB();
+  });
+  $("#kb-search").addEventListener("input", renderKB);
+  $("#kb-clear").addEventListener("click", ()=>{ $("#kb-search").value=""; kbFilter="all"; $$("#kb-chips .chip").forEach(x=>x.classList.toggle("on",x.dataset.key==="all")); renderKB(); });
+  renderKB();
+}
+function highlight(text, query){
+  const words = normalizeHe(query).split(" ").filter(w=>w.length>=2);
+  let out = esc(text);
+  if(!words.length) return out;
+  for(const w of words){
+    const stem = stems(w).sort((a,b)=>a.length-b.length)[0];
+    if(stem.length<2) continue;
+    const pat = stem.split("").map(ch=>{const f=Object.keys(FINALS).find(k=>FINALS[k]===ch); return f?`[${ch}${f}]`:ch.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");}).join("");
+    out = out.replace(new RegExp(`(${pat})`,"g"), `<mark class="bg-yellow-200 rounded px-0.5">$1</mark>`);
+  }
+  return out;
+}
+function renderKB(){
+  const q = $("#kb-search").value;
+  let res = searchKB(q);
+  if(kbFilter!=="all") res = res.filter(r=>r.e.chips.includes(kbFilter));
+  $("#kb-count").textContent = `${res.length} ${res.length===1?"תוצאה":"תוצאות"}`;
+  $("#kb-clear").classList.toggle("hidden", !q && kbFilter==="all");
+  $("#kb-empty").classList.toggle("hidden", res.length>0);
+  $("#kb-list").innerHTML = res.map(({e})=>`
+    <details id="${e.id}" class="group bg-white rounded-2xl border border-slate-200 shadow-sm hover:border-na-300 transition fade-in">
+      <summary class="p-4 sm:p-5 flex gap-3 items-start">
+        <div class="flex-1">
+          <div class="font-semibold text-slate-900 leading-snug">${e.isNew?`<span class="inline-block align-middle text-[11px] bg-na-700 text-white rounded px-1.5 py-0.5 ml-1">חדש</span>`:""}${highlight(e.title,q)}</div>
+          <div class="mt-2 flex flex-wrap gap-1.5">${e.tags.map(t=>`<span class="tag ${t[0]==="trad"?"trad":t[0]==="concept"?"concept":""}">${esc(t[1])}</span>`).join("")}</div>
+        </div>
+        <span class="chev text-slate-400 text-xl leading-none mt-1" aria-hidden="true">⌄</span>
+      </summary>
+      <div class="px-4 sm:px-5 pb-5 border-t border-stone-100 pt-4 text-slate-700 leading-relaxed">
+        <div class="text-xs font-semibold text-na-700 mb-2">מניסיון הוועדה</div>
+        ${e.answer}
+        <div class="mt-5 grid sm:grid-cols-2 gap-4">
+          <div class="rounded-xl bg-stone-50 p-4">
+            <div class="text-sm font-semibold text-slate-800 mb-1">🗣️ נקודות לשיחה במצפון הקבוצה</div>
+            <ul class="list-disc pr-5 text-sm space-y-1">${e.points.map(p=>`<li>${esc(p)}</li>`).join("")}</ul>
+          </div>
+          <div class="rounded-xl bg-stone-50 p-4">
+            <div class="text-sm font-semibold text-slate-800 mb-1">📘 לקריאה נוספת בספרות NA</div>
+            <ul class="list-disc pr-5 text-sm space-y-1">${e.refs.map(p=>`<li>${esc(p)}</li>`).join("")}</ul>
+          </div>
+        </div>
+        <div class="mt-4 flex flex-wrap items-center gap-2 text-sm">
+          <span class="text-slate-500">האם זה עזר?</span>
+          <button class="helpful rounded-lg border border-stone-300 px-3 py-1 hover:bg-stone-50" data-v="up">👍</button>
+          <button class="helpful rounded-lg border border-stone-300 px-3 py-1 hover:bg-stone-50" data-v="down">👎</button>
+          <button class="report text-xs text-slate-400 hover:text-red-600 mr-auto">דיווח על פרט מזהה</button>
+        </div>
+      </div>
+    </details>`).join("");
+}
+document.addEventListener("click", e=>{
+  if(e.target.closest(".helpful")){ const wrap=e.target.closest("div"); wrap.innerHTML=`<span class="text-na-700 text-sm">תודה! המשוב נספר באופן אנונימי 🙏</span>`; }
+  if(e.target.closest(".report")){ toast("תודה. הדיווח הועבר לבדיקת הוועדה"); }
+  const cp = e.target.closest(".copy-btn"); if(cp){ copyText($("#"+cp.dataset.copy).value); }
+  const cr = e.target.closest(".copy-raw"); if(cr){ copyText(cr.dataset.text); }
+  const dc = e.target.closest(".demo-code"); if(dc){ $("#status-input").value=dc.dataset.code; checkCode(dc.dataset.code); }
+});
+
+/* ============================================================
+   בדיקת סטטוס
+   ============================================================ */
+const STEPS = [
+  {key:"new", label:"התקבלה"},
+  {key:"in_review", label:"בבחינת הוועדה"},
+  {key:"closed", label:"נענתה"}
+];
+const STATUS_TEXT = {
+  new:{title:"השאלה התקבלה 🙏", text:"הפנייה ממתינה לשיבוץ אצל משרת/ת בוועדה. בדרך כלל זה קורה תוך כמה ימים.", color:"sky"},
+  in_review:{title:"הוועדה בוחנת את השאלה", text:"משרתי הוועדה עובדים על מענה. כל תשובה נבדקת ומאושרת על ידי שני משרתים לפני שהיא נחשפת לכם.", color:"amber"},
+  awaiting_clarification:{title:"יש לנו שאלת הבהרה", text:"כדי שנוכל לעזור, נשמח לעוד פרט אחד. אפשר לענות כאן, בלי שום פרט מזהה.", color:"violet"},
+  closed:{title:"התקבל מענה מהוועדה ✓", text:"", color:"teal"}
+};
+function stepIndex(st){ return st==="closed"?2 : (st==="new"?0:1); }
+function showStatus(code, override){
+  const found = override !== undefined ? override : lookup(code);
+  $("#status-notfound").classList.toggle("hidden", !!found);
+  const box = $("#status-result");
+  if(!found){ box.classList.add("hidden"); return; }
+  const {key, rec, demo} = found;
+  const st = STATUS_TEXT[rec.status];
+  const si = stepIndex(rec.status);
+  const colorMap = {sky:"bg-sky-50 border-sky-200 text-sky-900",amber:"bg-amber-50 border-amber-200 text-amber-900",violet:"bg-violet-50 border-violet-200 text-violet-900",teal:"bg-na-50 border-na-200 text-na-900"};
+
+  box.innerHTML = `
+    <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5">
+      <div class="flex items-center justify-between text-xs text-slate-500">
+        <span>נשלחה ב-${fmtDate(rec.created)}</span>
+        <span class="font-mono" dir="ltr">${esc(key.length>12?key.slice(0,6)+"…"+key.slice(-4):key)}</span>
+      </div>
+      <!-- ציר התקדמות -->
+      <ol class="mt-5 flex items-center">
+        ${STEPS.map((s,i)=>`
+          <li class="flex-1 flex flex-col items-center relative">
+            ${i>0?`<span class="absolute top-4 left-1/2 w-full h-1 -z-0 ${i<=si?"bg-na-600":"bg-stone-200"}" style="right:-50%;left:auto"></span>`:""}
+            <span class="relative z-10 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold ${i<=si?"bg-na-600 text-white":"bg-stone-200 text-slate-500"}">${i<si||rec.status==="closed"?"✓":i+1}</span>
+            <span class="mt-2 text-xs sm:text-sm ${i<=si?"text-na-800 font-medium":"text-slate-400"}">${s.label}</span>
+          </li>`).join("")}
+      </ol>
+    </div>
+
+    <div class="rounded-2xl border p-5 ${colorMap[st.color]}">
+      <div class="font-semibold text-lg">${st.title}</div>
+      ${st.text?`<p class="text-sm mt-1">${st.text}</p>`:""}
+      ${rec.status==="closed"&&rec.answered?`<p class="text-xs mt-1 opacity-80">נענתה ב-${fmtDate(rec.answered)}</p>`:""}
+    </div>
+
+    ${rec.status==="awaiting_clarification"?`
+    <div class="bg-white rounded-2xl border border-violet-200 p-5">
+      <div class="text-xs font-semibold text-violet-700">שאלת הבהרה מהוועדה</div>
+      <p class="mt-1 text-slate-800">${esc(rec.clarification)}</p>
+      <textarea id="clar-text" rows="3" class="mt-3 w-full rounded-lg border border-stone-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-violet-500" placeholder="התשובה שלכם (בלי פרטים מזהים)"></textarea>
+      <button id="clar-send" class="mt-2 bg-violet-600 hover:bg-violet-700 text-white rounded-lg px-4 py-2 text-sm font-medium">שליחת הבהרה</button>
+    </div>`:""}
+
+    ${rec.status==="closed"?`
+    <article class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 sm:p-6">
+      <div class="text-xs font-semibold text-na-700 mb-2">מניסיון הוועדה</div>
+      <div class="text-slate-700 leading-relaxed">${rec.answer}</div>
+      ${rec.signedBy?`<p class="mt-3 text-xs text-slate-400">בשם תת-ועדת פיתוח חברותא מרכז</p>`:""}
+      ${rec.refs?`<div class="mt-4 rounded-xl bg-stone-50 p-4"><div class="text-sm font-semibold mb-1">📘 לקריאה נוספת</div><ul class="list-disc pr-5 text-sm">${rec.refs.map(r=>`<li>${esc(r)}</li>`).join("")}</ul></div>`:""}
+      <div class="mt-4 flex items-center gap-2 text-sm"><span class="text-slate-500">האם זה עזר?</span>
+        <button class="helpful rounded-lg border border-stone-300 px-3 py-1 hover:bg-stone-50">👍</button>
+        <button class="helpful rounded-lg border border-stone-300 px-3 py-1 hover:bg-stone-50">👎</button></div>
+    </article>`:""}
+
+    <details class="bg-white rounded-2xl border border-slate-200 shadow-sm">
+      <summary class="p-4 text-sm font-medium text-slate-700 flex justify-between">השאלה ששלחתם <span class="chev text-slate-400">⌄</span></summary>
+      <div class="px-4 pb-4 text-sm text-slate-600">
+        <div class="text-xs text-slate-400 mb-1">${esc(rec.categoryLabel||"")}</div>
+        <p class="whitespace-pre-wrap">${esc(rec.question)}</p>
+      </div>
+    </details>
+
+    <div class="flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between text-sm">
+      ${demo?`<span class="text-xs text-slate-400">🧪 פנייה לדוגמה</span>`:`<span class="text-xs text-slate-400">הדף מתעדכן אוטומטית כשהוועדה עונה.</span>`}
+      <button id="delete-mine" class="text-red-600 hover:underline">🗑️ מחיקת הפנייה שלי</button>
+    </div>
+    <p class="text-xs text-slate-400">הפנייה תימחק אוטומטית 180 יום אחרי סגירתה. כתובות מייל נמחקות מיד אחרי שליחת ההתראה.</p>
+  `;
+  box.classList.remove("hidden");
+
+  const del = $("#delete-mine");
+  del.onclick = async ()=>{
+    if(demo){ toast("זו פנייה לדוגמה ולא ניתן למחוק אותה"); return; }
+    if(del.dataset.confirm!=="1"){ del.dataset.confirm="1"; del.textContent="לחצו שוב לאישור המחיקה"; return; }
+    if(CLOUD){ try{ await rpc("fd_delete_mine", {p_code:key}); }catch(e){ netErr(e); return; } }
+    delete STORE[key]; persist();
+    box.innerHTML = `<div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 text-center"><div class="text-3xl">🗑️</div><p class="mt-2 font-medium">הפנייה נמחקה לצמיתות.</p><p class="text-sm text-slate-500 mt-1">לא נשאר ממנה שום עותק אצלנו.</p></div>`;
+  };
+  const cs = $("#clar-send");
+  if(cs) cs.onclick = async ()=>{
+    const txt = $("#clar-text").value.trim();
+    if(!txt){ $("#clar-text").focus(); return; }
+    if(CLOUD){ try{ await rpc("fd_clarify", {p_code:key, p_text:txt}); }catch(e){ netErr(e); return; } }
+    rec.clarReply = txt; rec.clarReplyAt = Date.now(); rec.status = "in_review"; persist();
+    cs.closest("div").innerHTML = `<div class="text-violet-800 text-sm">✓ ההבהרה נשלחה לוועדה. תודה!</div>`;
+  };
+}
+// הגנה מניחוש: אחרי 5 קודים שגויים – המתנה של דקה (במערכת האמיתית זה נאכף בשרת)
+let badTries = 0, lockedUntil = 0;
+async function checkCode(code){
+  const lock = $("#status-locked");
+  if(Date.now() < lockedUntil){ lock.textContent = `יותר מדי ניסיונות. אפשר לנסות שוב בעוד ${Math.ceil((lockedUntil-Date.now())/1000)} שניות.`; lock.classList.remove("hidden"); return; }
+  lock.classList.add("hidden");
+  if(CLOUD){
+    const n = normCode(code);
+    if(n.length!==4){ showStatus(code, null); return; }
+    try{
+      const rec = await rpc("fd_status", {p_code:n});
+      const found = rec ? {key:n, demo:false, rec:{...rec, answer: rec.answerText ? textToHtml(rec.answerText) : ""}} : null;
+      showStatus(code, found);
+    }catch(e){
+      if(e.code==="rate_limited"){ lock.textContent = "היו יותר מדי ניסיונות באתר בדקה האחרונה. נסו שוב בעוד דקה."; lock.classList.remove("hidden"); }
+      else netErr(e);
+    }
+    return;
+  }
+  const found = lookup(code);
+  if(!found){ badTries++; if(badTries>=5){ badTries=0; lockedUntil = Date.now()+60000; } }
+  else badTries = 0;
+  showStatus(code);
+}
+$("#status-form").addEventListener("submit", e=>{ e.preventDefault(); checkCode($("#status-input").value); });
+
+/* ============================================================
+   ממשק משרתים (Admin Dashboard)
+   ============================================================ */
+const ADMIN_PASS = "na2026"; // סיסמה לדוגמה בלבד – באבטיפוס אין אבטחה אמיתית
+let adminAuthed = false, adminToken = null, adminLoaded = false;
+try{ if(CLOUD){ adminToken = sessionStorage.getItem("fd-admin-token"); adminAuthed = !!adminToken; } else adminAuthed = sessionStorage.getItem("fd-admin")==="1"; }catch(e){}
+function adminLogoutLocal(){ adminAuthed=false; adminToken=null; adminLoaded=false; STORE = CLOUD ? {} : STORE; try{ sessionStorage.removeItem("fd-admin"); sessionStorage.removeItem("fd-admin-token"); }catch(_){} }
+async function adminLoad(){
+  const list = await rpc("fd_admin_list", {p_token: adminToken});
+  STORE = {};
+  for(const it of (list||[])) STORE[it.id] = {...it.data, status: it.status, channel: it.data.channel || (it.anonymous?"anonymous":"")};
+  adminLoaded = true;
+}
+async function saveRec(key){
+  const r = STORE[key]; if(!r) return;
+  if(!CLOUD){ persist(); return; }
+  const data = {...r}; delete data._checkPub; delete data.demo;
+  await rpc("fd_admin_save", {p_token: adminToken, p_id: key, p_data: data, p_status: data.status});
+}
+function adminAuthFail(e){
+  if(e && e.code==="not_authorized"){ adminLogoutLocal(); toast("החיבור פג. נא להיכנס שוב"); renderAdmin(); return true; }
+  netErr(e); return false;
+}
+let adminOpenKey = null;
+
+const ROLE_LABEL = {member:"חבר/ה", group_servant:"משרת/ת בקבוצה", service_body:"ועדה / גוף שירות", other:"אחר"};
+const URG_LABEL  = {normal:"רגיל", deadline_1w:"אסיפה בשבוע הקרוב", deadline_2w:"תוך שבועיים"};
+const CH_LABEL   = {anonymous:"🔒 אנונימי (קוד סודי)", link_only:"🔒 אנונימי (קוד סודי)", whatsapp:"💬 וואטסאפ", email:"✉️ מייל"};
+function contactLine(r){
+  if(r.channel==="whatsapp" && r.phone) return `<span dir="ltr">${esc(fmtPhone(r.phone))}</span>`;
+  if(r.channel==="email" && r.email) return `<span dir="ltr">${esc(r.email)}</span>`;
+  return "";
+}
+function plainAnswer(r){ return (r.answerText || r.draftText || "").trim(); }
+function waLink(r, text){ return `https://wa.me/${normPhone(r.phone)}` + (text?`?text=${encodeURIComponent(text)}`:""); }
+function mailLink(r, text){ return `mailto:${encodeURIComponent(r.email)}?subject=${encodeURIComponent("תשובה מוועדת פיתוח חברותא מרכז")}` + (text?`&body=${encodeURIComponent(text)}`:""); }
+function contactBox(r){
+  if(isAnon(r)) return `<div class="mt-3 text-xs rounded-lg bg-na-50 border border-na-100 text-na-900 px-3 py-2">🔒 פנייה אנונימית: הפונה יראה/תראה את המענה באתר עם הקוד הסודי. הקוד אינו מוצג למשרתים.</div>`;
+  const closed = r.status==="closed", ans = closed ? plainAnswer(r) : "";
+  const sig = "\n\nבברכה,\nתת-ועדת פיתוח חברותא מרכז";
+  if(r.channel==="whatsapp") return `
+    <div class="mt-3 rounded-xl bg-green-50 border border-green-200 p-3 text-sm text-green-900">
+      <div class="text-xs font-semibold">💬 מספר הוואטסאפ של הפונה</div>
+      <div class="flex items-center gap-2 mt-1"><span class="text-lg font-bold" dir="ltr">${esc(fmtPhone(r.phone))}</span>
+        <button type="button" class="copy-raw text-xs underline" data-text="${esc(fmtPhone(r.phone))}">העתקה</button></div>
+      <a href="${waLink(r, closed ? ans+sig : "")}" target="_blank" rel="noopener noreferrer" class="inline-block mt-2 bg-green-600 hover:bg-green-700 text-white rounded-lg px-3 py-1.5 text-sm font-medium">${closed?"שליחת התשובה בוואטסאפ":"פתיחת שיחה בוואטסאפ"}</a>
+    </div>`;
+  return `
+    <div class="mt-3 rounded-xl bg-sky-50 border border-sky-200 p-3 text-sm text-sky-900">
+      <div class="text-xs font-semibold">✉️ כתובת המייל של הפונה</div>
+      <div class="flex items-center gap-2 mt-1"><span class="font-bold break-all" dir="ltr">${esc(r.email)}</span>
+        <button type="button" class="copy-raw text-xs underline" data-text="${esc(r.email)}">העתקה</button></div>
+      <a href="${mailLink(r, closed ? ans+sig : "")}" class="inline-block mt-2 bg-sky-600 hover:bg-sky-700 text-white rounded-lg px-3 py-1.5 text-sm font-medium">${closed?"שליחת התשובה במייל":"כתיבת מייל לפונה"}</a>
+    </div>`;
+}
+const COLUMNS = [
+  {key:"new",    title:"חדש",   statuses:["new"],                              tone:"border-t-sky-500"},
+  {key:"work",   title:"בטיפול", statuses:["in_review","awaiting_clarification"], tone:"border-t-amber-500"},
+  {key:"closed", title:"נענה",   statuses:["closed"],                           tone:"border-t-na-700"}
+];
+const PUB_TAGS = [
+  ...TRADITIONS.map((t,i)=>({id:"t"+(i+1), label:`מסורת ${i+1}`, tag:["trad",`מסורת ${i+1}`], chip:"t"+(i+1)})),
+  {id:"finance", label:"כספי קבוצה", tag:["","כספי קבוצה"], chip:"finance"},
+  {id:"members", label:"יחסי חברים", tag:["","יחסי חברים"], chip:"members"},
+  {id:"conscience", label:"מצפון קבוצה", tag:["","מצפון קבוצה"], chip:null},
+  {id:"rotation", label:"רוטציה", tag:["","רוטציה"], chip:null}
+];
+
+function textToHtml(t){
+  const blocks = t.trim().split(/\n\s*\n/);
+  return blocks.map((b,bi)=>{
+    const lines = b.split("\n").map(l=>l.trim()).filter(Boolean);
+    const cls = bi? ' class="mt-2"':"";
+    if(lines.length && lines.every(l=>/^[-•*]\s*/.test(l))) return `<ul class="list-disc pr-5 mt-1 space-y-1">${lines.map(l=>`<li>${esc(l.replace(/^[-•*]\s*/,""))}</li>`).join("")}</ul>`;
+    return `<p${cls}>${lines.map(esc).join("<br>")}</p>`;
+  }).join("");
+}
+function ageLabel(ts){ const d=Math.floor((Date.now()-ts)/864e5); return d<=0?"היום":d===1?"אתמול":`לפני ${d} ימים`; }
+
+async function renderAdmin(){
+  if(!adminAuthed){ $("#adm-login").classList.remove("hidden"); $("#adm-app").classList.add("hidden"); setTimeout(()=>$("#adm-pass").focus(),50); return; }
+  $("#adm-login").classList.add("hidden"); $("#adm-app").classList.remove("hidden");
+  if(CLOUD && !adminLoaded){
+    $("#adm-detail").classList.add("hidden"); $("#adm-board").classList.remove("hidden");
+    $("#adm-board").innerHTML = `<div class="flex items-center gap-3 text-slate-500 p-6"><span class="spinner"></span> טוען פניות…</div>`;
+    try{ await adminLoad(); }catch(e){ if(adminAuthFail(e)) return; $("#adm-board").innerHTML = `<div class="text-red-700 p-6">לא ניתן לטעון את הפניות. נסו "רענון".</div>`; return; }
+  }
+  if(adminOpenKey && STORE[adminOpenKey]){ $("#adm-board").classList.add("hidden"); $("#adm-detail").classList.remove("hidden"); renderAdminDetail(adminOpenKey); }
+  else { $("#adm-detail").classList.add("hidden"); $("#adm-board").classList.remove("hidden"); renderBoard(); }
+}
+
+function renderBoard(){
+  const items = Object.entries(STORE);
+  const urgRank = r=> r.urgency==="deadline_1w"?0 : r.urgency==="deadline_2w"?1 : 2;
+  $("#adm-board").innerHTML = `
+    <div class="grid md:grid-cols-3 gap-4">
+      ${COLUMNS.map(col=>{
+        const list = items.filter(([k,r])=>col.statuses.includes(r.status))
+          .sort((a,b)=> col.key==="closed" ? (b[1].answered||0)-(a[1].answered||0) : (urgRank(a[1])-urgRank(b[1])) || (a[1].created-b[1].created));
+        return `
+        <div class="bg-stone-100/70 rounded-2xl p-3 border-t-4 ${col.tone}">
+          <div class="flex items-center justify-between px-1 mb-3">
+            <h2 class="font-bold text-slate-800">${col.title}</h2>
+            <span class="text-xs bg-white rounded-full px-2 py-0.5 text-slate-600 border border-stone-200">${list.length}</span>
+          </div>
+          <div class="space-y-2.5">
+            ${list.length? list.map(([k,r])=>`
+              <a href="#/admin/${encodeURIComponent(k)}" class="block bg-white rounded-xl border border-slate-200 shadow-sm p-3 hover:border-na-400 hover:shadow transition">
+                <div class="flex items-center justify-between text-[11px] text-slate-400">
+                  <span>${ageLabel(r.created)}</span>
+                  <span>${r.demo?"🧪 דוגמה":""}</span>
+                </div>
+                <div class="text-[11px] text-na-600 font-semibold mt-1 truncate">${esc(r.categoryLabel||"לא סווג")}</div>
+                <p class="text-sm text-slate-700 mt-1 leading-snug">${esc(r.question.slice(0,120))}${r.question.length>120?"…":""}</p>
+                <div class="mt-2 flex flex-wrap gap-1">
+                  ${r.urgency&&r.urgency!=="normal"?`<span class="tag" style="background:#fee2e2;color:#991b1b">⏰ ${URG_LABEL[r.urgency]}</span>`:""}
+                  ${r.status==="awaiting_clarification"?`<span class="tag" style="background:#ede9fe;color:#5b21b6">ממתין להבהרה</span>`:""}
+                  ${r.clarReply&&r.status!=="closed"?`<span class="tag" style="background:#dcfce7;color:#166534">הפונה השיב/ה</span>`:""}
+                  ${r.draft&&r.status!=="closed"?`<span class="tag">📝 טיוטה</span>`:""}
+                  ${r.publish?`<span class="tag concept">📢 מאשר/ת פרסום</span>`:""}
+                  ${r.published?`<span class="tag trad">פורסם במאגר</span>`:""}
+                  <span class="tag">${CH_LABEL[r.channel||"anonymous"]}</span>
+                </div>
+                <div class="mt-1.5 text-[12px] text-slate-500">${contactLine(r)}
+                </div>
+              </a>`).join("") : `<div class="text-sm text-slate-400 text-center py-6">אין פניות</div>`}
+          </div>
+        </div>`;}).join("")}
+    </div>`;
+}
+
+function renderAdminDetail(key){
+  const r = STORE[key];
+  const q = piiScan(r.question);
+  const tried = r.tried ? piiScan(r.tried) : null;
+  const draftText = r.draftText || r.answerText || `תודה ששיתפתם. מניסיון הוועדה, \n\n- \n- \n\nזו חוויה משותפת ולא הוראה. מומלץ להביא את הנושא לדיון במצפון הקבוצה. נשמח לשמוע איך זה התפתח.`;
+  const closed = r.status==="closed";
+  $("#adm-detail").innerHTML = `
+    <a href="#/admin" class="inline-flex items-center gap-1 text-sm text-na-700 hover:underline mb-4">→ חזרה ללוח הפניות</a>
+    <div class="grid lg:grid-cols-5 gap-5">
+      <!-- הפנייה -->
+      <div class="lg:col-span-2 space-y-4">
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold text-na-600">הפנייה</span>
+            <span class="text-xs text-slate-400">${fmtDate(r.created)}</span>
+          </div>
+          <div class="text-sm text-slate-500 mt-1">${esc(r.categoryLabel||"לא סווג")}</div>
+          ${q.count?`<div class="mt-3 text-xs rounded-lg bg-yellow-50 border border-yellow-200 text-yellow-900 px-3 py-2">⚠️ זוהו ${q.count} פרטים שעשויים להיות מזהים (מסומנים בצהוב). אין להעתיק אותם למענה או למאגר.</div>`:""}
+          <p class="mt-3 text-slate-800 leading-relaxed whitespace-pre-wrap">${q.html}</p>
+          ${tried?`<div class="mt-4 pt-3 border-t border-stone-100"><div class="text-xs font-semibold text-slate-500 mb-1">מה כבר ניסו</div><p class="text-sm text-slate-700 whitespace-pre-wrap">${tried.html}</p></div>`:""}
+          <dl class="mt-4 pt-3 border-t border-stone-100 grid grid-cols-2 gap-y-2 text-sm">
+            <dt class="text-slate-500">מי שואל/ת</dt><dd>${ROLE_LABEL[r.role]||"לא צוין"}</dd>
+            <dt class="text-slate-500">דחיפות</dt><dd>${URG_LABEL[r.urgency||"normal"]}</dd>
+            <dt class="text-slate-500">ערוץ מענה</dt><dd>${CH_LABEL[r.channel||"anonymous"]}</dd>
+            <dt class="text-slate-500">פרסום</dt><dd>${r.publish?"✅ הפונה אישר/ה":"❌ לא אושר"}</dd>
+          </dl>
+          ${contactBox(r)}
+        </div>
+
+        ${r.clarification?`
+        <div class="bg-white rounded-2xl border border-violet-200 shadow-sm p-5 text-sm">
+          <div class="text-xs font-semibold text-violet-700">שאלת הבהרה שנשלחה</div>
+          <p class="mt-1 text-slate-800">${esc(r.clarification)}</p>
+          ${r.clarReply?`<div class="mt-3 pt-3 border-t border-violet-100"><div class="text-xs font-semibold text-green-700">תשובת הפונה</div><p class="mt-1 text-slate-800 whitespace-pre-wrap">${piiScan(r.clarReply).html}</p></div>`:`<p class="mt-2 text-xs text-slate-400">ממתין לתשובת הפונה…</p>`}
+        </div>`:""}
+
+        
+        ${!r.demo?`<button id="adm-spam" class="text-xs text-red-600 hover:underline px-1">🗑️ סימון כספאם ומחיקה</button>`:""}
+      </div>
+
+      <!-- מענה -->
+      <div class="lg:col-span-3 space-y-4">
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5">
+          <div class="flex items-center justify-between">
+            <h2 class="font-bold text-slate-900">${closed?"המענה שנשלח":"טיוטת מענה לפונה"}</h2>
+            ${closed?`<span class="tag trad">נשלח ${fmtDate(r.answered)}</span>`:""}
+          </div>
+          ${closed?"":`
+          <div class="flex flex-wrap gap-2 mt-3 text-xs">
+            <button type="button" data-ins="open" class="ins rounded-lg border border-stone-300 px-2.5 py-1 hover:bg-stone-50">+ פתיחה</button>
+            <button type="button" data-ins="close" class="ins rounded-lg border border-stone-300 px-2.5 py-1 hover:bg-stone-50">+ חתימה</button>
+            <select id="ins-trad" class="rounded-lg border border-stone-300 px-2 py-1 bg-white">
+              <option value="">+ הפניה למסורת/עיקרון…</option>
+              ${TRADITIONS.map((t,i)=>`<option value="מסורת ${i+1} (${t})">מסורת ${i+1}</option>`).join("")}
+              ${CONCEPTS.map((t,i)=>`<option value="עיקרון שירות ${i+1} (${t})">עיקרון ${i+1}</option>`).join("")}
+            </select>
+          </div>`}
+          <textarea id="adm-answer" rows="12" ${closed?"readonly":""} class="mt-3 w-full rounded-lg border border-stone-300 px-3 py-2 leading-relaxed focus:outline-none focus:ring-2 focus:ring-na-600 ${closed?"bg-stone-50":""}">${esc(draftText)}</textarea>
+          <p class="text-xs text-slate-400 mt-1">שורות שמתחילות ב- "-" יוצגו כרשימה. שורה ריקה = פסקה חדשה.</p>
+          <div id="adm-answer-pii" class="hidden mt-2 text-xs rounded-lg bg-yellow-50 border border-yellow-200 text-yellow-900 px-3 py-2"></div>
+          <label class="block mt-3">
+            <span class="text-sm text-slate-600">לקריאה נוספת בספרות NA (מופרד בפסיקים)</span>
+            <input id="adm-refs" ${closed?"readonly":""} value="${esc((r.refs||[]).join(", "))}" placeholder="למשל: חוברת הקבוצה, It Works: How and Why – מסורת 7" class="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-na-600">
+          </label>
+
+          ${closed?"":`
+          <div id="clar-box" class="hidden mt-4 rounded-xl border border-violet-200 bg-violet-50 p-3">
+            <label class="text-sm text-violet-900 font-medium" for="adm-clar">שאלת הבהרה לפונה (תוצג בעמוד הסטטוס שלו/ה)</label>
+            <textarea id="adm-clar" rows="2" class="mt-1 w-full rounded-lg border border-violet-200 px-3 py-2 text-sm">${esc(r.clarification&&!r.clarReply?r.clarification:"")}</textarea>
+            <button id="adm-clar-send" class="mt-2 bg-violet-600 hover:bg-violet-700 text-white rounded-lg px-3 py-1.5 text-sm">שליחת שאלת ההבהרה</button>
+          </div>`}
+        </div>
+
+        <!-- פרסום למאגר -->
+        ${r.published?`<div class="bg-white rounded-2xl border border-na-200 shadow-sm p-5 text-sm">📢 שאלה זו פורסמה במאגר השו"ת כערך נפרד ולא מקושר לפנייה. <a href="#/kb/${esc(r.publishedId)}" class="text-na-700 underline">צפייה בערך</a></div>`:
+        closed?"":`
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5">
+          <label class="flex items-start gap-3 ${r.publish?"cursor-pointer":"opacity-60"}">
+            <input id="pub-toggle" type="checkbox" class="mt-1 w-4 h-4 accent-[#003366]" ${r.publish?"":"disabled"}>
+            <span>
+              <span class="font-semibold text-slate-900">פרסום למאגר השו"ת הציבורי</span>
+              <span class="block text-xs text-slate-500 mt-0.5">${r.publish?"הפונה אישר/ה פרסום. יש לנסח מחדש כשאלה עקרונית ולהסיר כל פרט מזהה.":"לא ניתן: הפונה לא אישר/ה פרסום (מסורת 12)."}</span>
+            </span>
+          </label>
+          <div id="pub-form" class="hidden mt-4 space-y-3">
+            <div class="flex flex-wrap gap-2">
+              <button type="button" id="pub-autoredact" class="text-xs rounded-lg bg-yellow-100 hover:bg-yellow-200 text-yellow-900 px-3 py-1.5">🧹 ניקוי אוטומטי של פרטים מזהים</button>
+              <button type="button" id="pub-copy-answer" class="text-xs rounded-lg border border-stone-300 hover:bg-stone-50 px-3 py-1.5">העתקת המענה לגרסה הציבורית</button>
+            </div>
+            <label class="block"><span class="text-sm text-slate-600">השאלה בניסוח כללי ועקרוני</span>
+              <textarea id="pub-title" rows="3" class="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2 text-sm">${esc(r.question)}</textarea></label>
+            <label class="block"><span class="text-sm text-slate-600">התשובה לפרסום</span>
+              <textarea id="pub-answer" rows="6" class="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2 text-sm"></textarea></label>
+            <div id="pub-pii" class="hidden text-xs rounded-lg bg-yellow-50 border border-yellow-200 text-yellow-900 px-3 py-2"></div>
+            <label class="block"><span class="text-sm text-slate-600">נקודות לשיחה במצפון הקבוצה (שורה לכל נקודה, רשות)</span>
+              <textarea id="pub-points" rows="2" class="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2 text-sm"></textarea></label>
+            <div>
+              <span class="text-sm text-slate-600">תגיות (לפחות מסורת או נושא אחד)</span>
+              <div id="pub-tags" class="mt-2 flex flex-wrap gap-1.5">
+                ${PUB_TAGS.map(t=>`<label class="role-pill"><input type="checkbox" value="${t.id}" class="sr-only"><span style="font-size:.78rem;padding:.2rem .6rem">${t.label}</span></label>`).join("")}
+              </div>
+            </div>
+            <div class="rounded-xl bg-stone-50 border border-stone-200 p-3 space-y-1.5 text-sm" id="pub-checklist">
+              <div class="font-semibold text-slate-800 text-sm mb-1">✅ בדיקה לפני פרסום (חובה)</div>
+              <label class="flex gap-2"><input type="checkbox" class="chk accent-[#003366]"> אין שמות של אנשים</label>
+              <label class="flex gap-2"><input type="checkbox" class="chk accent-[#003366]"> אין שם קבוצה, מקום מפגש או עיר</label>
+              <label class="flex gap-2"><input type="checkbox" class="chk accent-[#003366]"> אין תאריכים או פרטים ייחודיים שמזהים אירוע</label>
+              <label class="flex gap-2"><input type="checkbox" class="chk accent-[#003366]"> המענה מבוסס על עקרונות ולא על שיפוט אישים</label>
+            </div>
+          </div>
+        </div>`}
+
+        ${closed?"":`
+        <div class="flex flex-col sm:flex-row gap-2 sm:justify-between">
+          <div class="flex gap-2">
+            <button id="adm-save" class="rounded-xl border border-stone-300 bg-white hover:bg-stone-50 px-4 py-2.5 text-sm font-medium">💾 שמירת טיוטה</button>
+            ${isAnon(r)?`<button id="adm-clar-toggle" class="rounded-xl border border-violet-300 text-violet-800 bg-white hover:bg-violet-50 px-4 py-2.5 text-sm font-medium">❓ בקשת הבהרה</button>`:""}
+          </div>
+          <button id="adm-send" class="rounded-xl bg-na-700 hover:bg-na-800 text-white px-6 py-2.5 font-semibold">📨 ${isAnon(r)?"שלח מענה":"שמירת המענה ומעבר לשליחה"}</button>
+        </div>
+        <p id="adm-send-err" class="hidden text-sm text-red-600"></p>
+        <p class="text-xs text-slate-400">במערכת האמיתית: מענה ופרסום דורשים אישור של משרת/ת שני/ה (עיקרון "ארבע עיניים").</p>`}
+      </div>
+    </div>`;
+  if(!closed) wireDetail(key);
+  window.scrollTo({top:0});
+}
+
+function wireDetail(key){
+  const r = STORE[key];
+  const ans = $("#adm-answer");
+  const checkAnsPii = ()=>{ const s=piiScan(ans.value); const b=$("#adm-answer-pii"); b.classList.toggle("hidden",!s.count); if(s.count) b.innerHTML=`⚠️ זוהו במענה ${s.count} פרטים שעשויים להיות מזהים:<div class="mt-1 text-slate-700 whitespace-pre-wrap">${s.html}</div>`; };
+  ans.addEventListener("input", checkAnsPii); checkAnsPii();
+  const insert = txt=>{ const st=ans.selectionStart??ans.value.length; ans.value = ans.value.slice(0,st)+txt+ans.value.slice(ans.selectionEnd??st); ans.focus(); checkAnsPii(); };
+  $$(".ins").forEach(b=>b.onclick=()=>insert(b.dataset.ins==="open"?"תודה ששיתפתם. מניסיון הוועדה, ":"\n\nזו חוויה משותפת ולא הוראה. מומלץ להביא את הנושא לדיון במצפון הקבוצה. נשמח לשמוע איך זה התפתח."));
+  $("#ins-trad").onchange = e=>{ if(e.target.value){ insert(e.target.value); e.target.value=""; } };
+
+  const collect = ()=>{ r.draftText = ans.value; r.refs = $("#adm-refs").value.split(",").map(x=>x.trim()).filter(Boolean); r.draft = true; };
+  $("#adm-save").onclick = async ()=>{ collect(); const prev=r.status; if(r.status==="new") r.status="in_review"; try{ await saveRec(key); }catch(e){ r.status=prev; adminAuthFail(e); return; } toast("הטיוטה נשמרה ✓"); renderAdminDetail(key); };
+
+  if($("#adm-clar-toggle")) $("#adm-clar-toggle").onclick = ()=>{ $("#clar-box").classList.toggle("hidden"); $("#adm-clar").focus(); };
+  if($("#adm-clar-send")) $("#adm-clar-send").onclick = async ()=>{
+    const t = $("#adm-clar").value.trim(); if(!t){ $("#adm-clar").focus(); return; }
+    collect(); const prev = {...r}; r.clarification = t; r.clarReply = null; r.status = "awaiting_clarification";
+    try{ await saveRec(key); }catch(e){ Object.assign(r, prev); adminAuthFail(e); return; }
+    toast("שאלת ההבהרה פורסמה בעמוד הסטטוס של הפונה"); renderAdminDetail(key);
+  };
+
+  const spam = $("#adm-spam");
+  if(spam) spam.onclick = async ()=>{ if(spam.dataset.c!=="1"){ spam.dataset.c="1"; spam.textContent="לחצו שוב לאישור המחיקה"; return; } if(CLOUD){ try{ await rpc("fd_admin_delete",{p_token:adminToken,p_id:key}); }catch(e){ adminAuthFail(e); return; } } delete STORE[key]; persist(); location.hash="#/admin"; };
+
+  // פרסום
+  const tog = $("#pub-toggle");
+  if(tog){
+    const pubTitle=$("#pub-title"), pubAns=$("#pub-answer");
+    const checkPub = ()=>{ const a=piiScan(pubTitle.value), b=piiScan(pubAns.value); const n=a.count+b.count; const box=$("#pub-pii"); box.classList.toggle("hidden",!n); if(n) box.innerHTML=`⚠️ עדיין יש ${n} פרטים שעשויים להיות מזהים בגרסה הציבורית:<div class="mt-1 text-slate-700 whitespace-pre-wrap">${a.html}${b.count?"<hr class='my-1'>"+b.html:""}</div>`; return n; };
+    tog.onchange = ()=>{ $("#pub-form").classList.toggle("hidden", !tog.checked); if(tog.checked && !pubAns.value) pubAns.value = ans.value; checkPub(); };
+    pubTitle.oninput = checkPub; pubAns.oninput = checkPub;
+    $("#pub-copy-answer").onclick = ()=>{ pubAns.value = ans.value; checkPub(); };
+    $("#pub-autoredact").onclick = ()=>{ pubTitle.value = piiRedact(pubTitle.value); pubAns.value = piiRedact(pubAns.value); const n=checkPub(); toast(n?"נוקה חלקית, בדקו ידנית":"הפרטים המזוהים הוסרו ✓"); };
+    r._checkPub = checkPub;
+  }
+
+  $("#adm-send").onclick = async ()=>{
+    const err = $("#adm-send-err"); err.classList.add("hidden");
+    const fail = m=>{ err.textContent=m; err.classList.remove("hidden"); };
+    if(ans.value.trim().length<30) return fail("נא לכתוב מענה של לפחות 30 תווים.");
+    if(piiScan(ans.value).count && !confirmOnce("adm-send","במענה זוהו פרטים שעשויים להיות מזהים. לחצו שוב על 'שלח מענה' כדי לשלוח בכל זאת.")) return;
+    let pubEntry = null;
+    if(tog && tog.checked){
+      const title = $("#pub-title").value.trim(), pa = $("#pub-answer").value.trim();
+      const tags = $$("#pub-tags input:checked").map(i=>PUB_TAGS.find(t=>t.id===i.value));
+      if(title.length<15 || pa.length<30) return fail("בגרסה הציבורית חסרים שאלה או תשובה.");
+      if(!tags.length) return fail("נא לבחור לפחות תגית אחת למאגר.");
+      if($$("#pub-checklist .chk").some(c=>!c.checked)) return fail("נא להשלים את כל סעיפי הבדיקה לפני פרסום.");
+      if(r._checkPub() > 0) return fail("בגרסה הציבורית עדיין יש פרטים מזהים. נקו אותם (אפשר בכפתור הניקוי האוטומטי).");
+      pubEntry = {
+        id: "kb-u-" + randomToken(8), isNew: true, published: Date.now(),
+        title, answer: textToHtml(pa), answerText: pa,
+        tags: tags.map(t=>t.tag), chips: tags.map(t=>t.chip).filter(Boolean),
+        keywords: "", points: $("#pub-points").value.split("\n").map(x=>x.trim()).filter(Boolean),
+        refs: $("#adm-refs").value.split(",").map(x=>x.trim()).filter(Boolean)
+      };
+    }
+    collect();
+    const prev = {...r};
+    r.answerText = ans.value; r.answer = textToHtml(ans.value); r.answered = Date.now();
+    r.status = "closed"; r.draft = false; r.signedBy = true;
+    if(pubEntry){ r.published = true; r.publishedId = pubEntry.id; }
+    const btnSend = $("#adm-send"); btnSend.disabled = true;
+    try{
+      if(CLOUD && pubEntry){ const e2 = {...pubEntry}; delete e2.answer; await rpc("fd_admin_publish", {p_token: adminToken, p_entry: e2}); }
+      await saveRec(key);
+    }catch(e){ Object.keys(r).forEach(k=>delete r[k]); Object.assign(r, prev); btnSend.disabled = false; adminAuthFail(e); return; }
+    if(pubEntry){ KB_PUBLISHED.push(pubEntry); persistPublished(); rebuildKB(); }
+    delete r._checkPub;
+    toast(!isAnon(r) ? (r.channel==="whatsapp" ? "המענה נשמר ✓ לחצו 'שליחת התשובה בוואטסאפ'" : "המענה נשמר ✓ לחצו 'שליחת התשובה במייל'") : pubEntry ? "המענה נשלח ופורסם במאגר ✓" : "המענה נשלח ✓ הפונה יראה אותו בבדיקת הסטטוס");
+    renderAdminDetail(key);
+  };
+}
+const _confirmFlags = {};
+function confirmOnce(id,msg){ if(_confirmFlags[id]){ delete _confirmFlags[id]; return true; } _confirmFlags[id]=true; const e=$("#adm-send-err"); e.textContent=msg; e.classList.remove("hidden"); setTimeout(()=>delete _confirmFlags[id],8000); return false; }
+
+$("#adm-login-form").addEventListener("submit", async e=>{
+  e.preventDefault();
+  if(CLOUD){
+    const errEl = $("#adm-pass-err"), b = e.target.querySelector("button");
+    b.disabled = true;
+    try{
+      adminToken = await rpc("fd_admin_login", {p_pass: $("#adm-pass").value});
+      adminAuthed = true; adminLoaded = false; try{ sessionStorage.setItem("fd-admin-token", adminToken); }catch(_){}
+      $("#adm-pass").value = ""; errEl.classList.add("hidden"); renderAdmin();
+    }catch(err){
+      errEl.textContent = err.code==="bad_password" ? "סיסמה שגויה" : err.code==="rate_limited" ? "יותר מדי ניסיונות כושלים. נסו שוב בעוד 10 דקות." : err.code==="no_admin_password" ? "עדיין לא הוגדרה סיסמת משרתים במסד הנתונים." : "בעיית חיבור לשרת. נסו שוב.";
+      errEl.classList.remove("hidden"); $("#adm-pass").select();
+    }
+    b.disabled = false; return;
+  }
+  if($("#adm-pass").value===ADMIN_PASS){ adminAuthed=true; try{sessionStorage.setItem("fd-admin","1");}catch(_){} $("#adm-pass").value=""; $("#adm-pass-err").classList.add("hidden"); renderAdmin(); }
+  else { $("#adm-pass-err").classList.remove("hidden"); $("#adm-pass").select(); }
+});
+$("#adm-logout").addEventListener("click", ()=>{ if(CLOUD && adminToken) rpc("fd_admin_logout",{p_token:adminToken}).catch(()=>{}); adminLogoutLocal(); location.hash="#/new"; });
+$("#adm-refresh").addEventListener("click", ()=>{ adminLoaded=false; renderAdmin(); });
+$("#adm-reset").addEventListener("click", e=>{
+  const b=e.currentTarget; if(b.dataset.c!=="1"){ b.dataset.c="1"; b.textContent="לחצו שוב: כל הפניות והפרסומים יימחקו"; setTimeout(()=>{b.dataset.c="";b.textContent="🧪 איפוס נתוני הדגמה";},5000); return; }
+  STORE = {}; seedDemo(true); KB_PUBLISHED = []; persistPublished(); rebuildKB(); b.dataset.c=""; b.textContent="🧪 איפוס נתוני הדגמה"; toast("נתוני ההדגמה אופסו"); renderAdmin();
+});
+
+/* סנכרון בין לשוניות: אם הפונה והמשרת פתוחים בשתי לשוניות, כל שינוי מתעדכן מיד */
+window.addEventListener("storage", e=>{
+  if(e.key===STORE_KEY) reloadStore();
+  if(e.key===KB_PUB_KEY){ loadPublished(); rebuildKB(); }
+  const h = location.hash;
+  if(h.startsWith("#/admin")){ if(!document.activeElement || !["TEXTAREA","INPUT"].includes(document.activeElement.tagName)) renderAdmin(); }
+  else if(h.startsWith("#/status") && !$("#status-result").classList.contains("hidden") && !document.querySelector("#clar-text:focus")) showStatus($("#status-input").value);
+  else if(h.startsWith("#/kb")) renderKB();
+});
+
+/* ============================================================
+   אתחול
+   ============================================================ */
+if(CLOUD){
+  $("#adm-demo-hint").remove(); $("#demo-codes").remove(); $("#adm-reset").remove();
+  $("#build-label").textContent = "גרסת ניסיון";
+}
+initForm(); initKB(); route();
+if(CLOUD){
+  rpc("fd_kb_list").then(list=>{
+    KB_PUBLISHED = (list||[]).map(e=>({...e, answer: textToHtml(e.answerText||""), isNew: (Date.now() - (e.published||0)) < 14*864e5, points: e.points||[], refs: e.refs||[], tags: e.tags||[], chips: e.chips||[]})).reverse();
+    rebuildKB(); if(location.hash.startsWith("#/kb")) renderKB();
+  }).catch(()=>{});
+}
+</script>
+</body>
+</html>
